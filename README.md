@@ -48,7 +48,7 @@ Este aporte se hace reforzando los procesos de búsqueda, recopilación y visual
 - Programación: p5.js para conectar con diversas bases de datos.  
 
 #### Sesión 5: Lunes 2 de septiembre
-- Evaluación de p5.js.
+- Evaluación de p5.js
 
 #### Sesión 6: Lunes 9 de septiembre
 - Introducción a d3.js
@@ -61,3 +61,47 @@ Este aporte se hace reforzando los procesos de búsqueda, recopilación y visual
  
 #### Sesión 9: Lunes 30 de septiembre
 - Presentación de resultados de preparación de datos / Evaluado.
+
+#### Sesión 10: Lunes 7 de octubre
+- Pendiente
+
+#### Sesión 11: Lunes 14 de octubre
+- Pendiente
+
+#### Sesión 12: Lunes 21 de octubre
+- Pendiente
+
+#### Sesión 13: Lunes 28 de octubre
+- Pendiente
+
+#### Sesión 14: Lunes 4 de noviembre
+- Pre-entrega
+
+#### Sesión 15: Lunes 11 de noviembre
+- Pre-entrega
+
+#### Sesión 16: Lunes 18 de noviembre
+- Entrega final
+
+
+### Bibliografía
+
+Crockford, D. (2008). JavaScript: The Good Parts.
+
+Flanagan, D. (2010). jQuery Pocket Reference: Read Less, Learn More.
+
+McCarthy, L., Reas, C. & Fry, B. (2015). Getting Started with p5.js: Making Interactive Graphics in JavaScript and Processing
+
+d3...
+
+
+### Contactos
+
+Ayudante: Nicole Cea / nivacea@gmail.com 
+
+Profesor: Felipe Cortez / profesor@faco.cl / http://profesor.faco.cl/
+
+### Horarios de clases:
+
+Lunes, de 10.15 a 13.30 hrs. / Laboratorio C-13
+
