@@ -33,7 +33,7 @@ Este aporte se hace reforzando los procesos de búsqueda, recopilación y visual
 - Presentaciones  de título:
   -  Ignacio Solís
   -  Nicole Cea
-- Programación: Ciclo `for` y condición `if` en p5.js
+- Programación: [Ciclo `for` y condición `if` en p5.js](https://github.com/profesorfaco/grafica_computacional/tree/master/sesion-02)
 
 #### Sesiones 3: Lunes 19 de agosto
 - Presentaciones de título: 
