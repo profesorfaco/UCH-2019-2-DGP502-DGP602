@@ -27,13 +27,13 @@ Este aporte se hace reforzando los procesos de búsqueda, recopilación y visual
 - Presentaciones de títulos: 
   - Constanza Seves
   - Felipe Sepúlveda
-- Programación: Variables de JavaScript, JSON y loadJSON en p5.js
+- Programación: Variables de JavaScript, JSON y loadJSON en [el editor de p5.js]()
 
 #### Sesión 2: Lunes 12 de agosto
 - Presentaciones  de título:
   -  Ignacio Solís
   -  Nicole Cea
-- Programación: [Ciclo `for` y condición `if` en p5.js](https://github.com/profesorfaco/grafica_computacional/tree/master/sesion-02)
+- Programación: Ciclo `for` y condición `if` en [el editor de p5.js](https://editor.p5js.org/profesorfaco/sketches/14qdRBHU4)
 
 #### Sesiones 3: Lunes 19 de agosto
 - Presentaciones de título: 
