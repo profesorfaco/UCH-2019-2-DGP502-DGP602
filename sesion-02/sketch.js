@@ -1,4 +1,4 @@
-var externa, total, promedio;
+var externa;
 var duraciones = [];
 
 function preload() {
