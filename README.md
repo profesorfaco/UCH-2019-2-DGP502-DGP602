@@ -1,9 +1,9 @@
 # profesorfaco/grafica_computacional
 
-## Dos niveles, mismo horario, sala y actividades:
+### Dos niveles, mismo horario, sala y actividades:
 
-### DGP502-1 Seminario Gráfica Computacional I 2019, Segundo Semestre
-### DGP602-1 Seminario Gráfica Computacional II 2019, Segundo Semestre
+#### DGP502-1 Seminario Gráfica Computacional I 2019, Segundo Semestre
+#### DGP602-1 Seminario Gráfica Computacional II 2019, Segundo Semestre
 
 Según decisión de cada estudiante, el seminario puede abordarse como oportunidad de:
 
