@@ -7,7 +7,7 @@
 
 Según decisión de cada estudiante, el seminario puede abordarse como oportunidad de:
 
-- tantear el campo laboral; 
+- tantear el campo laboral (desde lo cuantitativo); 
 
 - adelantar algo de la etapa de titulación; o 
 
