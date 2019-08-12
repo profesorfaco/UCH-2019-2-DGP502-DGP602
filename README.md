@@ -83,6 +83,7 @@ Este aporte se hace reforzando los procesos de búsqueda, recopilación y visual
 #### Sesión 16: Lunes 18 de noviembre
 - Entrega final
 
+- - - - - -
 
 ### Bibliografía
 
@@ -94,6 +95,7 @@ McCarthy, L., Reas, C. & Fry, B. (2015). Getting Started with p5.js: Making Inte
 
 d3...
 
+- - - - - -
 
 ### Contactos
 
