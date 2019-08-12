@@ -39,7 +39,7 @@ Este aporte se hace reforzando los procesos de búsqueda, recopilación y visual
 - Presentaciones de título: 
   - Roció Barra
   - Pendiente 
-- Programación: p5.js y p5.dom.js
+- Programación: p5.js y p5.dom.js en editor de código fuente.
 
 #### Sesión 4: Lunes 26 de agosto
 - Presentaciones de título: 
@@ -48,7 +48,7 @@ Este aporte se hace reforzando los procesos de búsqueda, recopilación y visual
 - Programación: p5.js para conectar con diversas bases de datos.  
 
 #### Sesión 5: Lunes 2 de septiembre
-- Evaluación de p5.js / usando los 2 módulos.
+- Evaluación de p5.js.
 
 #### Sesión 6: Lunes 9 de septiembre
 - Introducción a d3.js
