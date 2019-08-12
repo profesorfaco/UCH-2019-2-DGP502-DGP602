@@ -27,7 +27,7 @@ Este aporte se hace reforzando los procesos de búsqueda, recopilación y visual
 - Presentaciones de títulos: 
   - Constanza Seves
   - Felipe Sepúlveda
-- Programación: Variables de JavaScript, JSON y loadJSON en [el editor de p5.js]()
+- Programación: Variables de JavaScript, JSON y loadJSON en [el editor de p5.js](https://editor.p5js.org/profesorfaco/sketches/NwzBh3HCu)
 
 #### Sesión 2: Lunes 12 de agosto
 - Presentaciones  de título:
