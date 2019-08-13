@@ -98,6 +98,10 @@ Murray, S. (2017). Interactive Data Visualization for the Web : An Introduction 
 
 ### Referencias en línea
 
+[11 Javascript Data Visualization Libraries for 2019](https://blog.bitsrc.io/11-javascript-charts-and-data-visualization-libraries-for-2018-f01a283a5727)
+
+[The D3.js Graph Gallery](https://www.d3-graph-gallery.com/)
+
 [Tutorial de D3 en Español](https://gcoch.github.io/D3-tutorial/)
 
 [Tutorial D3 / David Alarcón](https://observablehq.com/@dealarcon/tutorial-de-d3)
