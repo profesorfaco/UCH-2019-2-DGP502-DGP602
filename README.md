@@ -1,4 +1,4 @@
-# profesorfaco/grafica_computacional
+# grafica_computacional
 
 ### Dos niveles, mismo horario, sala y actividades:
 
@@ -91,9 +91,16 @@ Crockford, D. (2008). JavaScript: The Good Parts.
 
 Flanagan, D. (2010). jQuery Pocket Reference: Read Less, Learn More.
 
-McCarthy, L., Reas, C. & Fry, B. (2015). Getting Started with p5.js: Making Interactive Graphics in JavaScript and Processing
+McCarthy, L., Reas, C. & Fry, B. (2018). Introducción a p5.js
 
-d3...
+Murray, S. (2017). Interactive Data Visualization for the Web : An Introduction to Designing With D3. 
+
+
+### Referencias en línea
+
+[Tutorial de D3 en Español](https://gcoch.github.io/D3-tutorial/)
+
+
 
 - - - - - -
 
