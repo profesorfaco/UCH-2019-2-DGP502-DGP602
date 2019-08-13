@@ -37,7 +37,7 @@ Este aporte se hace reforzando los procesos de búsqueda, recopilación y visual
 
 #### Sesiones 3: Lunes 19 de agosto
 - Presentaciones de título: 
-  - Roció Barra
+  - Rocío Barra
   - Pendiente 
 - Programación: p5.js y p5.dom.js en editor de código fuente.
 
