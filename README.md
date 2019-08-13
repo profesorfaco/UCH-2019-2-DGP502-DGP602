@@ -43,7 +43,7 @@ Este aporte se hace reforzando los procesos de búsqueda, recopilación y visual
 
 #### Sesión 4: Lunes 26 de agosto
 - Presentaciones de título: 
-   - Pendiente
+   - Rita Paz Torres
    - Pendiente
 - Programación: p5.js para conectar con diversas bases de datos.  
 
@@ -99,7 +99,6 @@ Murray, S. (2017). Interactive Data Visualization for the Web : An Introduction 
 ### Referencias en línea
 
 [Tutorial de D3 en Español](https://gcoch.github.io/D3-tutorial/)
-
 
 
 - - - - - -
