@@ -33,7 +33,7 @@ Este aporte se hace reforzando los procesos de búsqueda, recopilación y visual
 - Presentaciones  de título:
   -  Ignacio Solís
   -  Nicole Cea
-- Programación: Ciclo `for` y condición `if` en [el editor de p5.js](https://editor.p5js.org/profesorfaco/sketches/14qdRBHU4)
+- Programación: Ciclo [for](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/for) y condición [if](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/if...else) en [el editor de p5.js](https://editor.p5js.org/profesorfaco/sketches/14qdRBHU4)
 
 #### Sesiones 3: Lunes 19 de agosto
 - Presentaciones de título: 
