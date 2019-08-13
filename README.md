@@ -100,6 +100,8 @@ Murray, S. (2017). Interactive Data Visualization for the Web : An Introduction 
 
 [Tutorial de D3 en Español](https://gcoch.github.io/D3-tutorial/)
 
+[Tutorial D3 / David Alarcón](https://observablehq.com/@dealarcon/tutorial-de-d3)
+
 
 - - - - - -
 
