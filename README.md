@@ -38,7 +38,7 @@ Este aporte se hace reforzando los procesos de búsqueda, recopilación y visual
 #### Sesiones 3: Lunes 19 de agosto
 - Presentaciones de título: 
   - Rocío Barra
-  - Pendiente 
+  - Andrea Lara 
 - Programación: p5.js y p5.dom.js en [editor de código fuente](https://profesorfaco.github.io/grafica_computacional/sesion-03/).
 
 #### Sesión 4: Lunes 26 de agosto
