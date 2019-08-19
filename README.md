@@ -59,7 +59,7 @@ Este aporte se hace reforzando los procesos de búsqueda, recopilación y visual
 - Búsqueda de datos sobre diseño
 
 #### Sesión 8: Lunes 23 de septiembre
-- Pre-entrega de visualizaciones d3.js
+- Pre-entrega de visualizaciones d3.js o clase de libre disposición (lo definiremos con dos semanas de anticipación)
  
 #### Sesión 9: Lunes 30 de septiembre
 - Presentación final de visualizaciones en d3.js
