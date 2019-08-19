@@ -21,9 +21,10 @@
 <body>
     <script>
         var sel, data, opcion;
+        var factor = 5000;
 
         function preload() {
-            data = loadTable("https://raw.githubusercontent.com/profesorfaco/grafica_computacional/gh-pages/sesion-03/data/censo-2017.csv","csv","header");
+            data = loadTable("https://raw.githubusercontent.com/profesorfaco/grafica_computacional/gh-pages/sesion-03/data/censo-2017.csv", "csv", "header");
         }
 
         function setup() {
@@ -31,89 +32,105 @@
             createCanvas(980, 600);
             sel = createSelect();
             sel.position(10, 10);
-            sel.option('Venezuela');
-            sel.option('Perú');
-            sel.option('Colombia');
-            sel.option('Bolivia');
-            sel.option('Haití');
-            sel.changed(tangananica);
+            sel.option('Población total');
+            sel.option('Inmigración venezolana');
+            sel.option('Inmigración peruana');
+            sel.option('Inmigración colombiana');
+            sel.option('Inmigración boliviana');
+            sel.option('Inmigración haitiana');
+            sel.changed(inmigrantes);
             noLoop();
+            regiones();
+
         }
 
-        function draw(){
-            background(200);
-            fill(0);
+        function draw() {
+            noFill();
+            stroke(0);
+            stroke(100);
+            beginShape();
+            vertex((width / 17), height - 60);
+            for (var x = 0; x < 16; x++) {
+                vertex((width / 17) * (x + 1), (height - 60) - (data.get(x, 1) / factor));
+            }
+            vertex((width / 17) * 16, height - 60);
+            endShape(CLOSE);
+        }
+
+        function regiones() {
             textSize(9)
             textAlign(CENTER);
             rectMode(CENTER);
-            for (var n = 0; n < 16; n++){
-                text(data.get(n,0),(width/17)*(n+1),height-20, width/17, 50);
+
+            for (var n = 0; n < 16; n++) {
+                text(data.get(n, 0), (width / 17) * (n + 1), height - 20, width / 17, 50);
             }
-            noFill();
-            stroke(100);
-            beginShape();
-            for (var x = 0; x < 16; x++){
-                vertex((width/17)*(x+1),(height-60)-(data.get(x,1)/5000));
-            }
-            endShape();
         }
 
-        function tangananica() {
+        function inmigrantes() {
             clear();
-            redraw();
-            fill(0);
-
+            regiones();
             opcion = sel.value();
-
-            if (opcion == "Venezuela") {
-                stroke(100);
+            if (opcion == "Inmigración venezolana") {
+                redraw();
+                fill(0);
                 beginShape();
-                for (var a = 0; a < 16; a++){
-                    vertex((width/17)*(a+1),(height-60)-(data.get(a,2)/5000));
+                vertex((width / 17), height - 60);
+                for (var a = 0; a < 16; a++) {
+                    vertex((width / 17) * (a + 1), (height - 60) - (data.get(a, 2) / factor));
                 }
-                endShape();
-
-
-            } else if (opcion == "Perú") {
-
-                stroke(100);
+                vertex((width / 17) * 16, height - 60);
+                endShape(CLOSE);
+            } else if (opcion == "Inmigración peruana") {
+                redraw();
+                fill(0);
                 beginShape();
-                for (var b = 0; b < 16; b++){
-                    vertex((width/17)*(b+1),(height-60)-(data.get(b,3)/5000));
+                vertex((width / 17), height - 60);
+                for (var b = 0; b < 16; b++) {
+                    vertex((width / 17) * (b + 1), (height - 60) - (data.get(b, 3) / factor));
                 }
-                endShape();
+                vertex((width / 17) * 16, height - 60);
+                endShape(CLOSE);
 
+            } else if (opcion == "Inmigración colombiana") {
+                redraw();
+                fill(0);
 
-            } else if (opcion == "Colombia") {
-
-                stroke(100);
                 beginShape();
-                for (var c = 0; c < 16; c++){
-                    vertex((width/17)*(c+1),(height-60)-(data.get(c,4)/5000));
+                vertex((width / 17), height - 60);
+                for (var c = 0; c < 16; c++) {
+                    vertex((width / 17) * (c + 1), (height - 60) - (data.get(c, 4) / factor));
                 }
-                endShape();
+                vertex((width / 17) * 16, height - 60);
+                endShape(CLOSE);
 
+            } else if (opcion == "Inmigración boliviana") {
+                redraw();
+                fill(0);
 
-            } else if (opcion == "Bolivia") {
-
-                stroke(100);
                 beginShape();
-                for (var d = 0; d < 16; d++){
-                    vertex((width/17)*(d+1),(height-60)-(data.get(d,5)/5000));
+                vertex((width / 17), height - 60);
+                for (var d = 0; d < 16; d++) {
+                    vertex((width / 17) * (d + 1), (height - 60) - (data.get(d, 5) / factor));
                 }
-                endShape();
+                vertex((width / 17) * 16, height - 60);
+                endShape(CLOSE);
 
-            } else if (opcion == "Haití") {
+            } else if (opcion == "Inmigración haitiana") {
+                redraw();
+                fill(0);
 
-                stroke(100);
                 beginShape();
-                for (var e = 0; e < 16; e++){
-                    vertex((width/17)*(e+1),(height-60)-(data.get(e,6)/5000));
+                vertex((width / 17), height - 60);
+                for (var e = 0; e < 16; e++) {
+                    vertex((width / 17) * (e + 1), (height - 60) - (data.get(e, 6) / factor));
                 }
-                endShape();
+                vertex((width / 17) * 16, height - 60);
+                endShape(CLOSE);
 
             } else {
-                text("Say what?!", 10, 300);
+                redraw();
+
             }
 
         }
