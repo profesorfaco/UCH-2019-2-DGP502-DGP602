@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <meta charset="utf-8">
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        canvas {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        var sel, data, opcion;
+
+        function preload() {
+            data = loadTable("https://raw.githubusercontent.com/profesorfaco/grafica_computacional/gh-pages/sesion-03/data/censo-2017.csv","csv","header");
+        }
+
+        function setup() {
+            console.log(data);
+            createCanvas(980, 600);
+            sel = createSelect();
+            sel.position(10, 10);
+            sel.option('Venezuela');
+            sel.option('Perú');
+            sel.option('Colombia');
+            sel.option('Bolivia');
+            sel.option('Haití');
+            sel.changed(tangananica);
+            noLoop();
+        }
+
+        function draw(){
+            background(200);
+            fill(0);
+            textSize(9)
+            textAlign(CENTER);
+            rectMode(CENTER);
+            for (var n = 0; n < 16; n++){
+                text(data.get(n,0),(width/17)*(n+1),height-20, width/17, 50);
+            }
+            noFill();
+            stroke(100);
+            beginShape();
+            for (var x = 0; x < 16; x++){
+                vertex((width/17)*(x+1),(height-60)-(data.get(x,1)/5000));
+            }
+            endShape();
+        }
+
+        function tangananica() {
+            clear();
+            redraw();
+            fill(0);
+
+            opcion = sel.value();
+
+            if (opcion == "Venezuela") {
+                stroke(100);
+                beginShape();
+                for (var a = 0; a < 16; a++){
+                    vertex((width/17)*(a+1),(height-60)-(data.get(a,2)/5000));
+                }
+                endShape();
+
+
+            } else if (opcion == "Perú") {
+
+                stroke(100);
+                beginShape();
+                for (var b = 0; b < 16; b++){
+                    vertex((width/17)*(b+1),(height-60)-(data.get(b,3)/5000));
+                }
+                endShape();
+
+
+            } else if (opcion == "Colombia") {
+
+                stroke(100);
+                beginShape();
+                for (var c = 0; c < 16; c++){
+                    vertex((width/17)*(c+1),(height-60)-(data.get(c,4)/5000));
+                }
+                endShape();
+
+
+            } else if (opcion == "Bolivia") {
+
+                stroke(100);
+                beginShape();
+                for (var d = 0; d < 16; d++){
+                    vertex((width/17)*(d+1),(height-60)-(data.get(d,5)/5000));
+                }
+                endShape();
+
+            } else if (opcion == "Haití") {
+
+                stroke(100);
+                beginShape();
+                for (var e = 0; e < 16; e++){
+                    vertex((width/17)*(e+1),(height-60)-(data.get(e,6)/5000));
+                }
+                endShape();
+
+            } else {
+                text("Say what?!", 10, 300);
+            }
+
+        }
+    </script>
+</body>
+
+</html>
