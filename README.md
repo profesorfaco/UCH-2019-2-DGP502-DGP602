@@ -54,38 +54,35 @@ Este aporte se hace reforzando los procesos de búsqueda, recopilación y visual
 - Introducción a d3.js
 - Búsqueda de datos sobre diseño
 
-#### Sesión 7: Lunes 16 de septiembre
+#### Sesión 7: Lunes 23 de septiembre
 - Avance en d3.js
 - Búsqueda de datos sobre diseño
 
-#### Sesión 8: Lunes 23 de septiembre
-- Pre-entrega de visualizaciones d3.js o clase de libre disposición (lo definiremos con dos semanas de anticipación)
- 
-#### Sesión 9: Lunes 30 de septiembre
+#### Sesión 8: Lunes 30 de septiembre
 - Presentación final de visualizaciones en d3.js
 
-#### Sesión 10: Lunes 7 de octubre
+#### Sesión 9: Lunes 7 de octubre
 - ENEDI2019 - El encuentro territorial en Santiago está programado para 8-10 de octubre. La clase podría cambiar por apoyo a la organización.
 
-#### Sesión 11: Lunes 14 de octubre
+#### Sesión 10: Lunes 14 de octubre
 - D3Plus.js
 - Selección de tema de visualización final
 
-#### Sesión 12: Lunes 21 de octubre
+#### Sesión 11: Lunes 21 de octubre
 - D3Plus.js - C3.js
 - Avance en tema de visualización final
 
-#### Sesión 13: Lunes 28 de octubre
+#### Sesión 12: Lunes 28 de octubre
 - C3.js
 - Avance en tema de visualización final
 
-#### Sesión 14: Lunes 4 de noviembre
+#### Sesión 13: Lunes 4 de noviembre
 - Pre-entrega
 
-#### Sesión 15: Lunes 11 de noviembre
+#### Sesión 14: Lunes 11 de noviembre
 - Pre-entrega
 
-#### Sesión 16: Lunes 18 de noviembre
+#### Sesión 15: Lunes 18 de noviembre
 - Entrega final
 
 - - - - - -
