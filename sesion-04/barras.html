@@ -8,6 +8,7 @@
     <style>
         html,
         body {
+            font-family: monospace;
             margin: 0;
             padding: 0;
             height: 100%;
@@ -22,7 +23,7 @@
 <body>
     <script>
         var h = document.getElementsByTagName("body")[0].offsetHeight;
-        var selector, data, opcion;
+        var data, selector, opcion;
         var factor = h * 20;
 
         function preload() {
@@ -68,6 +69,7 @@
             }
             strokeWeight(0);
             textAlign(RIGHT);
+            textSize(11);
             text("La población total de Chile, según CENSO 2017, es de " + habitantes.toLocaleString('es-ES'), width-(width/20), 25);
         }
 
@@ -98,6 +100,7 @@
                     inmigrantes += Number(data.get(a, columna));
                 }
                 strokeWeight(0);
+                textSize(11);
                 textAlign(RIGHT);
                 text("El total de " + opcion + " censada fue de " + inmigrantes.toLocaleString('es-ES'), width-(width/20), 50);
             }
