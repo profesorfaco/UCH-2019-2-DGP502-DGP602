@@ -45,7 +45,7 @@ Este aporte se hace reforzando los procesos de búsqueda, recopilación y visual
 - Presentaciones de título: 
    - Rita Paz Torres
    - Pendiente
-- Programación: p5.js para conectar con diversas bases de datos.  
+- Programación: p5.js para comparar con un vistazo.  
 
 #### Sesión 5: Lunes 2 de septiembre
 - Evaluación de p5.js
