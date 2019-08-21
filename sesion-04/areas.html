@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="p5.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+</head>
+
+<body>
+    <script>
+        var selector; 
+        var opcion = 0;
+
+        // Los porcentajes corresponden a los resultados de Censo 2017 y la estimación de las personas extranjeras residentes en Chile al 31 de diciembre de 2018 (resultado en una combinación de datos censales más registros administrativos de las instituciones vinculadas al proceso migratorio acerca de aquellas personas extranjeras con ánimo de residencia en el país e ingreso posterior al momento censal, es decir, que no fueron contabilizados en dicho operativo).
+
+        var data = [
+            { pais:"Perú", porcentaje: [25.2, 17.9] },
+            { pais:"Colombia", porcentaje: [14.1, 11.7] },
+            { pais:"Venezuela", porcentaje: [11.1, 23.0] },
+            { pais:"Bolivia", porcentaje: [9.9, 8.6] },
+            { pais:"Argentina", porcentaje: [8.9, 6.0] },
+            { pais:"Haití", porcentaje: [8.4, 14,3] },
+            { pais:"Otros países", porcentaje: [22.4, 18.5] }
+        ]
+
+        function setup() {
+            createCanvas(windowWidth, windowHeight);
+            noStroke();
+            noLoop();
+            selector = createSelect();
+            selector.position(10, 20);
+            selector.option('CENSO 2017', 0);
+            selector.option('ESTIMACIÓN 2019', 1);
+            selector.changed(inmigracion);
+        }
+
+        function bloque(ancho, texto) {
+            rect(0,0,ancho, height-70);
+            textSize(12);
+            text(texto, 10, height-50);
+            fill(255);
+            textSize(20);
+            text(Math.round(ancho/(width/100)) + "%", 10, height-80);
+        }
+
+        function draw() {
+            background(255);
+            opcion = selector.value();
+            for (var x = 0; x < data.length; x++) {
+                if (x == 0){
+                    translate(0,0);
+                } else {
+                    translate((width/100)*data[x-1]["porcentaje"][opcion],0);
+                } 
+                fill(25.5*x);
+                bloque((width/100)*data[x]["porcentaje"][opcion], data[x]["pais"]);
+            }
+        }
+
+        function inmigracion(){
+            clear();
+            redraw();
+        }
+
+    </script>
+
+</body>
+
+</html>
