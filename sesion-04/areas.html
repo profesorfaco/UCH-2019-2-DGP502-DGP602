@@ -53,10 +53,10 @@
                 if (x == 0){
                     translate(0,0);
                 } else {
-                    translate((width/100)*data[x-1]["porcentaje"][opcion],0);
+                    translate(Math.round((width/100)*data[x-1]["porcentaje"][opcion]),0);
                 } 
                 fill(25.5*x);
-                bloque((width/100)*data[x]["porcentaje"][opcion], data[x]["pais"]);
+                bloque(Math.round((width/100)*data[x]["porcentaje"][opcion]), data[x]["pais"]);
             }
         }
 
