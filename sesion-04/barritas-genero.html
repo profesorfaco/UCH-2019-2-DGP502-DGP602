@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">portada</a> - <a href="tarea.html">tarea</a> - <a href="tarea-barras.html">tarea con barras</a> - <a href="barritas-genero.html">barritas</a>
+    </nav>
+    <script>
+        var selector; 
+        var opcion = 0;
+
+        // Los porcentajes corresponden a los resultados de Censo 2017 y la estimación de las personas extranjeras residentes en Chile al 31 de diciembre de 2018 (resultado en una combinación de datos censales más registros administrativos de las instituciones vinculadas al proceso migratorio acerca de aquellas personas extranjeras con ánimo de residencia en el país e ingreso posterior al momento censal, es decir, que no fueron contabilizados en dicho operativo).
+
+        var data = [
+            { pais:"Perú", cantidades: [107735, 116188] },
+            { pais:"Colombia", cantidades: [69339, 77243] },
+            { pais:"Venezuela", cantidades: [149544, 138689] },
+            { pais:"Bolivia", cantidades: [48830, 58517] },
+            { pais:"Argentina", cantidades: [37607, 37106] },
+            { pais:"Haití", cantidades: [115512, 63825] },
+            { pais:"Otros países", cantidades: [117561, 113529] }
+        ]
+
+        function setup() {
+            createCanvas(windowWidth, windowHeight);
+            noStroke();
+            noLoop();
+            selector = createSelect();
+            selector.position(width-120, 30);
+            selector.option('Números',0);
+            selector.option('Porcentajes',1);
+            selector.changed(inmigracion);
+        }
+
+        function barra(pais, hombres, mujeres) {
+            fill(0);
+            noStroke();
+            textAlign(RIGHT);
+            text(pais, 0, 5, 100, 15);
+            fill(100);
+            rect(120, 6, hombres, 10);
+            fill(155);
+            rect(120+hombres, 6, mujeres, 10);
+
+        }
+
+        function draw() {
+            background(220);
+            opcion = selector.value();
+            for (var x = 0; x < 7; x++) {
+                translate(0, 30);
+                if (opcion == 0){
+                barra(data[x].pais, data[x].cantidades[0] / 1000, data[x].cantidades[0] / 1000);
+                } else {
+                barra(data[x].pais, ((data[x].cantidades[0]*100)/(data[x].cantidades[0]+data[x].cantidades[1]))*2, ((data[x].cantidades[1]*100)/(data[x].cantidades[0]+data[x].cantidades[1]))*2, 
+                 );
+                }
+            }
+            textAlign(CENTER);
+            fill(100);
+            text("hombres",150,50,50,20);
+            fill(155);
+            text("mujeres",250,50,50,20);
+        }
+
+        function inmigracion(){
+            clear();
+            redraw();
+        }
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+html,body {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+        
+canvas {
+display: block;
+}
+
+
+nav{
+	position:absolute;
+	bottom:25vh;
+	left:0;
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+    color:white;
+    padding:1rem;
+    z-index:999;
+    text-transform: uppercase;
+}
+
+nav a{
+    color:red;
+}
+
+nav a:hover{
+    color:blue;
+}

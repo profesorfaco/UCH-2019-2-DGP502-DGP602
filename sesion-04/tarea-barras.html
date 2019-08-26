@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">portada</a> - <a href="tarea.html">tarea</a> - <a href="tarea-barras.html">tarea con barras</a> - <a href="barritas-genero.html">barritas</a>
+    </nav>
+    <script>
+        var h = document.getElementsByTagName("body")[0].offsetHeight;
+        var data, selector, opcion;
+        var factor = h * 20;
+
+        function preload() {
+            data = loadTable("https://raw.githubusercontent.com/profesorfaco/grafica_computacional/gh-pages/sesion-03/data/censo-2017.csv", "csv", "header");
+        }
+
+        function setup() {
+            console.log(data);
+            createCanvas(windowWidth, windowHeight);
+            selector = createSelect();
+            selector.position(10, 10);
+            selector.option('población total');
+            selector.option('inmigración venezolana');
+            selector.option('inmigración peruana');
+            selector.option('inmigración colombiana');
+            selector.option('inmigración boliviana');
+            selector.option('inmigración haitiana');
+            selector.changed(inmigracion);
+            noLoop();
+        }
+
+        function regiones() {
+            clear();
+            textSize(9)
+            textAlign(CENTER);
+            rectMode(CENTER);
+            stroke(0);
+            strokeWeight(0);
+            for (var n = 0; n < 16; n++) {
+                text(data.get(n, 0), (width / 17) * (n + 1), height - 20, width / 17, 50);
+            }
+        }
+
+        function draw() {
+            var habitantes = 0;
+            regiones();
+            for (var y = 0; y < 16; y++) {
+                stroke(200);
+                strokeWeight(16);
+                strokeCap(SQUARE);
+                line((width / 17) * (y + 1), (height - 50), (width / 17) * (y + 1), (height - 50) - (data.get(y, 1) / factor));
+                habitantes += Number(data.get(y, 1));
+            }
+            strokeWeight(0);
+            textAlign(RIGHT);
+            textSize(11);
+            text("La población total de Chile, según CENSO 2017, es de " + habitantes.toLocaleString('es-ES'), width-(width/20), 25);
+        }
+
+        function inmigracion() {
+            var inmigrantes = 0;
+            clear();
+            regiones();
+            redraw();
+            opcion = selector.value();
+            if (opcion == "población total") {} else {
+                if (opcion == "inmigración venezolana") {
+                    columna = 2;
+                } else if (opcion == "inmigración peruana") {
+                    columna = 3;
+                } else if (opcion == "inmigración colombiana") {
+                    columna = 4;
+                } else if (opcion == "inmigración boliviana") {
+                    columna = 5;
+                } else {
+                    //Por descarte, acá resulta la Inmigración Haitiana
+                    columna = 6;
+                }
+                stroke(255, 0, 0);
+                for (var a = 0; a < 16; a++) {
+                    strokeWeight(8);
+                    strokeCap(SQUARE);
+                    line((width / 17) * (a + 1), (height - 50), (width / 17) * (a + 1), (height - 50) - (data.get(a, columna) / factor));
+                    inmigrantes += Number(data.get(a, columna));
+                }
+                strokeWeight(0);
+                textSize(11);
+                textAlign(RIGHT);
+                text("El total de " + opcion + " censada fue de " + inmigrantes.toLocaleString('es-ES'), width-(width/20), 50);
+            }
+
+        }
+    </script>
+</body>
+
+</html>
