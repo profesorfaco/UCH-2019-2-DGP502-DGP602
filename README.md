@@ -44,7 +44,7 @@ Este aporte se hace reforzando los procesos de búsqueda, recopilación y visual
 #### Sesión 4: Lunes 26 de agosto
 - Presentaciones de título: 
    - Rita Paz Torres
-   - Pendiente
+   - Ana Villagrán
 - Programación: p5.js para comparar datos con un vistazo.  
 
 #### Sesión 5: Lunes 2 de septiembre
