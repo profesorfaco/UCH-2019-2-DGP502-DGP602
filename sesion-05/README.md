@@ -2,7 +2,7 @@
 
 ### Evaluación de p5.js
 
-Utilizando [p5.js](https://p5js.org/es/), deben prepar visualizaciones con los datos compartidos vía U-Cursos, en material docente, 
+Utilizando [p5.js](https://p5js.org/es/), deben programar visualizaciones con los datos compartidos vía U-Cursos, en material docente. 
 
 Cada dupla decide cómo trabajar con los datos. Pueden crear variables dentro de cada script o ir por los datos en línea, usando [loadJSON()](https://p5js.org/es/reference/#/p5/loadJSON) o [loadTable()](https://p5js.org/es/reference/#/p5/loadTable).
 
