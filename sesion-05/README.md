@@ -18,7 +18,7 @@ El trabajo también se puede hacer solo, pero prefieran la opción de la dupla. 
 
 - Entre 0,0 y 1,0 por cuarto desafío | Pronto…
 
-- Entre 0,0 y 1,0 por quinto desafío | Pronto…
+- Entre 0,0 y 1,0 por quinto desafío | Desafío misterioso (el misterio se resolverá el lunes 2 de septiembre).
 
 - Entre 0,0 y 1,0 por el sitio que reune las visualizaciones | Pueden aprovechar lo compartido para la sesión 04, con un menú de navegación en 90º. Mientras más "minimal", mejor.
 
