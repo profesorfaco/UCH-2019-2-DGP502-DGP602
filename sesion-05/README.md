@@ -12,7 +12,7 @@ El trabajo también se puede hacer solo, pero prefieran la opción de la dupla. 
 
 - Entre 0,0 y 1,0 por primer desafío | Adapten la visualización con la que Rita presenta los números de Revistas UTE; programen un "select" que separe la presentación del análisis de contenidos según (1) Entradas, (2) Índole y (3) Tipo de Artículo. Prefieran mostrar las cantidades con barras.
 
-- Entre 0,0 y 1,0 por segundo desafío | Visualización de las diferencias del Índice de Calidad de Vida Urbana 2019 para la provincia de Santiago, marcando cada dimensión que compone el índice en sus puntos máximos y mínimos; programen un "select" que permita optar por 3 comunas, una de cada rango: (1) superior, (2) promedio e (3) inferior. Al optar por la comuna, debe dibujarse un gráfico de líneas que muester que tan lejos o cerca está de los extremos en cada caso.
+- Entre 0,0 y 1,0 por segundo desafío | Visualización de las diferencias del Índice de Calidad de Vida Urbana 2019 para la provincia de Santiago, marcando cada dimensión que compone el índice en sus puntos máximos y mínimos; programen un "select" que permita optar por 3 comunas, una de cada rango: (1) superior, (2) promedio e (3) inferior. Al optar por la comuna, debe dibujarse un gráfico de líneas que muestre que tan lejos o cerca está de los extremos en cada caso.
 
 - Entre 0,0 y 1,0 por tercer desafío | Pronto…
 
