@@ -14,7 +14,7 @@ El trabajo también se podría hacer individualmente, pero prefieran la opción 
 
 - Entre 0,0 y 1,0 por segundo desafío | Visualización de las diferencias del Índice de Calidad de Vida Urbana 2019 para la provincia de Santiago, marcando cada dimensión que compone el índice en sus puntos máximos y mínimos; programen un "select" que permita optar por 3 comunas, una de cada rango: (1) superior, (2) promedio e (3) inferior. Al optar por la comuna, debe dibujarse un gráfico de líneas que muestre que tan lejos o cerca está de los extremos en cada caso.
 
-- Entre 0,0 y 1,0 por tercer desafío | Visualización de las diferencias en los resultados PSU y NEM 2016 entre colegios de administración (1) municipal, (2) particular subvecionada y (3) particular pagada de la región Metropolitana, preparando tres gráficos de dispersión, intercambiables mediante "select". Además, con color para cada punto en la dispersión, diferenciar aquellos que obtuvieron sobre 500 PSU y 5.0 NEM (verde), aquellos que tienen promedio bajo 450 PSU (rojo), y aquellos que estén entre ambos extremos (gris).
+- Entre 0,0 y 1,0 por tercer desafío | Visualización de las diferencias de resultados PSU y NEM 2016 entre colegios de administración (1) municipal, (2) particular subvecionada y (3) particular pagada de la región Metropolitana, preparando tres gráficos de dispersión, intercambiables mediante "select". Con color para cada punto en la dispersión, diferenciar aquellos con promedios sobre 500 PSU y 5.0 NEM (verde), aquellos que tienen promedio bajo 450 PSU (rojo), y aquellos que estén entre ambos extremos (gris).
 
 - Entre 0,0 y 1,0 por cuarto desafío | Pronto…
 
