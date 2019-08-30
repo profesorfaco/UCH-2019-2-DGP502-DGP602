@@ -48,7 +48,7 @@ Este aporte se hace reforzando los procesos de búsqueda, recopilación y visual
 - Programación: p5.js para comparar datos con un vistazo.  
 
 #### Sesión 5: Lunes 2 de septiembre
-- Evaluación de p5.js
+- [Evaluación de p5.js](https://github.com/profesorfaco/grafica_computacional/tree/gh-pages/sesion-05)
 
 #### Sesión 6: Lunes 9 de septiembre
 - Introducción a d3.js
