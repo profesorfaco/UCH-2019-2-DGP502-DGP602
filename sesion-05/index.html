@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Revista UTE</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+<body>
+    
+    <nav>
+        <a href="index.html" class="actual">Revista UTE</a> <a href="icvu-2019.html">ICVU 2019</a> <a href="psu-nem.html">PSU/NEM</a> <a href="better-times.html">DESEMPLEO</a> <a href="global-warming.html">CALENTAMIENTO GLOBAL</a>
+    </nav>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+
+    <script>
+        var selector; 
+
+        function setup() {
+            createCanvas(windowWidth, windowHeight);
+            noStroke();
+            noLoop();
+            selector = createSelect();
+            selector.position(width-150, 20);
+            selector.option('Entradas', 0);
+            selector.option('Índole', 1);
+            selector.option('Tipos de Artículo', 2);
+            selector.changed(viz);
+        }
+
+        function viz(){
+        }
+
+    </script>
+
+</body>
+
+</html>

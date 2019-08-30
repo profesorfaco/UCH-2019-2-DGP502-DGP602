@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>DESEMPLEO</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+<body>
+    
+    <nav>
+        <a href="index.html">Revista UTE</a> <a href="icvu-2019.html">ICVU 2019</a> <a href="psu-nem.html">PSU/NEM</a> <a href="better-times.html" class="actual">DESEMPLEO</a> <a href="global-warming.html">CALENTAMIENTO GLOBAL</a>
+    </nav>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+
+    <script>
+        var radio; 
+
+        function setup() {
+            createCanvas(windowWidth, windowHeight);
+            noStroke();
+            noLoop();
+              radio = createRadio();
+              radio.position(width-350, 10);
+              radio.style('font-size','11px');
+              radio.option('Feb-Abr 2019 ', 1).checked = true;
+              radio.option('Mar-May 2019 ', 2);
+              radio.option('Abr-Jun 2019 ', 3);
+            radio.changed(viz);
+        }
+
+        function viz(){
+        }
+
+    </script>
+
+</body>
+
+</html>
