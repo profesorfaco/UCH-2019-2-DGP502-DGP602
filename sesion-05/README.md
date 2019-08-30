@@ -16,7 +16,7 @@ El trabajo también se podría hacer individualmente, pero prefieran la opción 
 
 - Entre 0,0 y 1,0 por tercer desafío | Visualización de las diferencias de resultados **PSU y NEM 2016 entre colegios de** administración (1) municipal, (2) particular subvencionada y (3) particular pagada de **la región Metropolitana**, preparando tres gráficos de dispersión, intercambiables mediante "select". Luego, con color para cada punto en la dispersión, diferenciar aquellos colegios con promedios sobre 500 PSU y 5.0 NEM (verde), aquellos que tienen promedio bajo 450 PSU (rojo), y aquellos que estén entre ambos extremos (gris).
 
-- Entre 0,0 y 1,0 por cuarto desafío | Visualización del estimado de **desocupados e inactivos diferenciando entre hombres y mujeres en la distintas regiones del país**, intercambiando entre los trimestres móviles de (1) Feb- Abr 2019, (2) Mar - May 2019 y (3) Abr - Jun 2019, mediante “radio”. En todos los casos comparar el porcentaje actual con el peor caso de la historia reciente.
+- Entre 0,0 y 1,0 por cuarto desafío | Visualización del estimado de **desocupados e inactivos diferenciando entre hombres y mujeres en la distintas regiones del país**, intercambiando entre los trimestres móviles de (1) Feb - Abr 2019, (2) Mar - May 2019 y (3) Abr - Jun 2019, mediante “radio”. En todos los casos comparar el porcentaje actual con el peor caso de la historia reciente.
 
 - Entre 0,0 y 1,0 por quinto desafío | Desafío misterioso (el misterio se resolverá el lunes 2 de septiembre, y **tendrá mucho de https://youtu.be/5-ptp9tRApM**). 
 
