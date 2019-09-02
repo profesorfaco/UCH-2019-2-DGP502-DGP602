@@ -38,5 +38,5 @@ El trabajo también se podría hacer individualmente, pero prefieran la opción 
 |	8	|	D. Conejeros - T. Lopez	|	https://disfrozen.github.io/sgcII_eval_01	|	https://github.com/disfrozen/sgcII_eval_01	|
 | 9 |	J. Lara - P. Riquelme - P. Tapia	|	https://lyytoral.github.io/Primera_Evaluacion	|	https://github.com/Lyytoral/Primera_Evaluacion	|
 |	10 	|	C. Calbul - J. Castro - D. Reyes	|	https://jaeezzang.github.io/entrega_1/	|	https://github.com/jaeezzang/entrega_1	|
-|	12	|	N. Bruce - M. Vivanco	|	https://matiasvivancob.github.io/Visualizacion-p5	|	https://github.com/matiasvivancob/Visualizacion-p5	|
-|	13	|	B. Flores 	|	https://basfor.github.io/evaluacion_01	|	https://github.com/basfor/evaluacion_01	|																						
+|	11	|	N. Bruce - M. Vivanco	|	https://matiasvivancob.github.io/Visualizacion-p5	|	https://github.com/matiasvivancob/Visualizacion-p5	|
+|	12	|	B. Flores 	|	https://basfor.github.io/evaluacion_01	|	https://github.com/basfor/evaluacion_01	|																						
