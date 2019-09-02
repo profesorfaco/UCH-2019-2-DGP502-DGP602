@@ -26,16 +26,17 @@ El trabajo también se podría hacer individualmente, pero prefieran la opción 
 
 ### Entregas
 
-| Estudiantes | GitHub Page | Repositorio |
-|:------------|:------------|:------------|
-| Laura Conde + Valeria Rojo | https://lauracondes.github.io/evaluacion-conde-rojo/ | https://github.com/lauracondes/evaluacion-conde-rojo |
-| Claudia González | https://medvsa.github.io/Entrega_01 | https://github.com/medvsa/Entrega_01
-| Andrea Gatica y Natalia Zuñiga | https://stukv.github.io/Evaluacion1/ | https://github.com/stukv/Evaluacion1 | 
-| Matías Vivanco | https://matiasvivancob.github.io/Visualizacion-p5/ | https://github.com/matiasvivancob/Visualizacion-p5/ |
-| Ariel Garate y Benjamín Vidal | https://ilusionista2000.github.io/EVA01SGC2/ | https://github.com/ilusionista2000/EVA01SGC2 | 
-| Bastian Flores | https://basfor.github.io/evaluacion_01/ | https://github.com/basfor/evaluacion_01 | 
-| Lara, Tapia y Riquelme | https://lyytoral.github.io/Primera_Evaluacion/ | https://github.com/Lyytoral/Primera_Evaluacion | 
-| Fernando Catalan y Nicolas Magaña | https://bachiloglu.github.io/DGP602/ev-01/index.html | https://github.com/bachiloglu/DGP602/tree/gh-pages/ev-01 |
-| Tomás López y Danae Conejeros | https://disfrozen.github.io/sgcII_eval_01/ | https://github.com/disfrozen/sgcII_eval_01 | 
-| Luis Salazar, Francisca Tapia y Odara Vilches | https://odaravilches.github.io/Prueba-seminario-grafica-computacional/ | https://github.com/odaravilches/Prueba-seminario-grafica-computacional |
-|
+| Nº	 | Integrantes |	 Sitio Web | Repositorio |
+|:----|:------------	|:----------	|:------------	|
+| 1 | S. Fonseca - C. Gonzalez - N. Serrano | https://medvsa.github.io/Entrega_01 | https://github.com/medvsa/Entrega_01 |
+| 2 | R. Salinas - D. Vega	|	Pendiente	|	Pendiente	|
+|	3	|	L. Conde - V. Rojo	|	https://lauracondes.github.io/evaluacion-conde-rojo	|	https://github.com/lauracondes/evaluacion-conde-rojo	|
+|	4	|	L. Salazar - F. Tapia  - O. Vilches	|	https://odaravilches.github.io/Prueba-seminario-grafica-computacional	|	https://github.com/odaravilches/Prueba-seminario-grafica-computacional	|
+|	5	|	F. Catalán - N. Magaña	|	https://bachiloglu.github.io/DGP602/ev-01	|	https://github.com/bachiloglu/DGP602/tree/gh-pages/ev-01	|
+|	6	|	A. Garate - B. Vidal	|	https://ilusionista2000.github.io/EVA01SGC2	|	https://github.com/ilusionista2000/EVA01SGC2	|
+|	7	|	A. Gatica - N. Zuñiga	|	https://stukv.github.io/Evaluacion1	|	https://github.com/stukv/Evaluacion1	|
+|	8	|	D. Conejeros - T. Lopez	|	https://disfrozen.github.io/sgcII_eval_01	|	https://github.com/disfrozen/sgcII_eval_01	|
+| 9 |	J. Lara - P. Riquelme - P. Tapia	|	https://lyytoral.github.io/Primera_Evaluacion	|	https://github.com/Lyytoral/Primera_Evaluacion	|
+|	10 	|	C. Calbul - J. Castro - D. Reyes	|	https://jaeezzang.github.io/entrega_1/	|	https://github.com/jaeezzang/entrega_1	|
+|	12	|	N. Bruce - M. Vivanco	|	https://matiasvivancob.github.io/Visualizacion-p5	|	https://github.com/matiasvivancob/Visualizacion-p5	|
+|	13	|	B. Flores 	|	https://basfor.github.io/evaluacion_01	|	https://github.com/basfor/evaluacion_01	|																						
