@@ -17,6 +17,8 @@ Este aporte se hace reforzando los procesos de búsqueda, recopilación y visual
 
 - [p5.js](https://p5js.org/)
 
+- [chart.js](https://www.chartjs.org/)
+
 - [d3.js](https://d3js.org/)
 
 - [d3plus.js](https://d3plus.org/)
@@ -51,25 +53,23 @@ Este aporte se hace reforzando los procesos de búsqueda, recopilación y visual
 - [Evaluación de p5.js](https://github.com/profesorfaco/grafica_computacional/tree/gh-pages/sesion-05)
 
 #### Sesión 6: Lunes 9 de septiembre
-- Introducción a d3.js
-- Búsqueda de datos sobre diseño
+- Introducción a Chart.js, D3Plus.js, C3.js
 
 #### Sesión 7: Lunes 23 de septiembre
-- Avance en d3.js
 - Búsqueda de datos sobre diseño
 
 #### Sesión 8: Lunes 30 de septiembre
-- Presentación final de visualizaciones en d3.js
+- Evaluación de Chart.js, D3Plus.js, C3.js
 
 #### Sesión 9: Lunes 7 de octubre
 - ENEDI2019 - El encuentro territorial en Santiago está programado para 8-10 de octubre. La clase podría cambiar por apoyo a la organización.
 
 #### Sesión 10: Lunes 14 de octubre
-- D3Plus.js
+- Introducción a D3.js
 - Selección de tema de visualización final
 
 #### Sesión 11: Lunes 21 de octubre
-- D3Plus.js - C3.js
+- D3.js - D3Plus.js - C3.js
 - Avance en tema de visualización final
 
 #### Sesión 12: Lunes 28 de octubre
