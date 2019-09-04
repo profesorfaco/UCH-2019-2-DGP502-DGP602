@@ -29,9 +29,9 @@ function setup() {
 }
 ``` 
 
-Incluso antes del dibujo en el [canvas](https://developer.mozilla.org/es/docs/Web/Guide/HTML/Canvas_tutorial) y la manipulación del [DOM](https://developer.mozilla.org/es/docs/DOM), p5.js nos puede ayudar: Nos permite precargar datos mediante `loadJSON()`, `loadStrings()`, `loadTable()`, evitándonos algunas complicaciones de la [API Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Utilizando_Fetch).
+Incluso antes del dibujo en el [canvas](https://developer.mozilla.org/es/docs/Web/Guide/HTML/Canvas_tutorial) y la manipulación del [DOM](https://developer.mozilla.org/es/docs/DOM), p5.js nos puede ayudar: Nos permite precargar datos mediante `loadJSON()`, `loadStrings()`, `loadTable()`, evitándonos algunas complicaciones del [Fetch](https://www.youtube.com/watch?v=tc8DU14qX6I).
 
-Luego, si queremos hacer visualizaciones, podemos aprovechar todas o parte de las ayudas recién descritas: dibujo en canvas, manipulación del DOM o precarga de datos externos. Y si el dibujo en canvas resulta muy complejo, bien podrían aprovecharse otras bibliotecas enfocadas en facilitarlo. Podemos trabajar, sin problemas con p5.js y [Chart.js](https://www.chartjs.org/): **Eso es lo primero que exploraremos con los ejercicios en este repositorio.** 
+Luego, si queremos hacer visualizaciones, podemos aprovechar todas o parte de las ayudas recién descritas (dibujo en canvas, manipulación del DOM o precarga de datos). Y si el dibujo en el canvas resulta muy complejo: Podríamos aprovechar otras bibliotecas enfocadas en facilitarlo. Así podríamos trabajar, sin problemas, con p5.js y [Chart.js](https://www.chartjs.org/): **Eso es lo que adelantamos en la evaluación de la [sesión recién pasada](https://github.com/profesorfaco/grafica_computacional/tree/gh-pages/sesion-05) y es lo que exploraremos con parte de los ejercicios en este repositorio.** 
 
 #### CHART.JS / Simple yet flexible JavaScript charting for designers & developers
 
@@ -41,7 +41,13 @@ Luego, si queremos hacer visualizaciones, podemos aprovechar todas o parte de la
 
 ### SVG
 
-Canvas no es la única manera de dibujar en un sitio web. También está [SVG](https://developer.mozilla.org/es/docs/Web/SVG). Y para trabajar visualizaciones de datos con SVG hay una vía de "simplificación": [d3.js](https://d3js.org/)
+Pero el canvas no es la única manera en que se pueden incluir gráficos interactivo en una págian web. También está [SVG](https://developer.mozilla.org/es/docs/Web/SVG). 
+
+- [¿Canvas o SVG?](https://www.arsys.es/blog/programacion/diseno-web/canvas-o-svg/)
+
+- [SVG vs canvas: how to choose](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/samples/gg193983(v=vs.85)#Using_Canvas_AndOr_SVG)
+
+Y para trabajar visualizaciones de datos con SVG hay una vía de "simplificación": [d3.js](https://d3js.org/)
 
 Como la simplificación va entre comillas, convendría partir por bibliotecas que simplifican el uso de la biblioteca de d3.js
 
