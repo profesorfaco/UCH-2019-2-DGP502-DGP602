@@ -53,7 +53,7 @@ Este aporte se hace reforzando los procesos de búsqueda, recopilación y visual
 - [Evaluación de p5.js](https://github.com/profesorfaco/grafica_computacional/tree/gh-pages/sesion-05)
 
 #### Sesión 6: Lunes 9 de septiembre
-- [Introducción a Chart.js, D3Plus.js, C3.js](https://github.com/profesorfaco/grafica_computacional)
+- [Introducción a Chart.js, D3Plus.js, C3.js](https://github.com/profesorfaco/grafica_computacional/tree/gh-pages/sesion-06)
 
 #### Sesión 7: Lunes 23 de septiembre
 - Búsqueda de datos sobre diseño
