@@ -14,7 +14,7 @@ function draw(){
 }
 ``` 
 
-[p5.js] también nos ayuda a manipular el [DOM](https://developer.mozilla.org/es/docs/DOM), agregando elementos a la página web, siempre y cuando estemos sumando la biblioteca de [p5.dom](https://p5js.org/es/reference/#/libraries/p5.dom). Por ejemplo, podemos sumar un [select](https://www.w3schools.com/tags/tag_select.asp):
+p5.js también nos ayuda a manipular el [DOM](https://developer.mozilla.org/es/docs/DOM), agregando elementos a la página web, siempre y cuando estemos sumando la biblioteca de [p5.dom](https://p5js.org/es/reference/#/libraries/p5.dom). Por ejemplo, podemos sumar un [select](https://www.w3schools.com/tags/tag_select.asp):
 
 ```
 var s;
