@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <title>D3plus</title>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://d3plus.org/js/d3plus-hierarchy.v0.8.full.min.js"></script>
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html">Index</a> Chart.js <a href="chart-01.html">01</a> <a href="chart-02.html">02</a> <a href="chart-03.html">03</a> <a href="chart-04.html">04</a> <a href="chart-05.html">05</a> C3.js <a href="c3-01.html">01</a> <a href="c3-02.html">02</a> <a href="c3-03.html">03</a> D3plus <a href="d3plus-01.html">01</a> <a href="d3plus-02.html">02</a> <a href="d3plus-03.html">03</a>
+    </nav>
+
+    <div id="chart"></div>
+
+    <script>
+        // Datos disponibles en https://www.extranjeria.gob.cl/estadisticas-migratorias/
+        // Estimación de personas extranjeras residentes en Chile (INE-DEM)
+        // Estimación de Extranjeros Residentes en Chile 2018 (documento XLS)
+
+        var dataset = [{
+            continente: "América",
+            pais: "Perú",
+            cantidad: 223923
+        }, {
+            continente: "América",
+            pais: "Colombia",
+            cantidad: 146582
+        }, {
+            continente: "América",
+            pais: "Venezuela",
+            cantidad: 288233
+        }, {
+            continente: "América",
+            pais: "Bolivia",
+            cantidad: 107346
+        }, {
+            continente: "América",
+            pais: "Argentina",
+            cantidad: 74713
+        }, {
+            continente: "América",
+            pais: "Haití",
+            cantidad: 179338
+        }, {
+            continente: "América",
+            pais: "Ecuador",
+            cantidad: 36994
+        }, {
+            continente: "Europa",
+            pais: "España",
+            cantidad: 21147
+        }, {
+            continente: "América",
+            pais: "Brasil",
+            cantidad: 18185
+        }, {
+            continente: "América",
+            pais: "EE.UU.",
+            cantidad: 16337
+        }, {
+            continente: "América",
+            pais: "República Dominicana",
+            cantidad: 17959
+        }, {
+            continente: "Otro",
+            pais: "China",
+            cantidad: 13528
+        }, {
+            continente: "América",
+            pais: "Cuba",
+            cantidad: 15837
+        }, {
+            continente: "América",
+            pais: "México",
+            cantidad: 8975
+        }, {
+            continente: "Europa",
+            pais: "Alemania",
+            cantidad: 8515
+        }, {
+            continente: "Otro",
+            pais: "Otro país",
+            cantidad: 69959
+        }, {
+            continente: "Otro",
+            pais: "País no declarado",
+            cantidad: 3656
+        }];
+
+        new d3plus.Treemap()
+            .data(dataset)
+            .groupBy("pais")
+            .select("#chart")
+            .sum("cantidad")
+            .render()
+    </script>
+</body>
+
+</html>

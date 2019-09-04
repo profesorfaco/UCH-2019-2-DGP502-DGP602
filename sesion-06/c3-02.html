@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.7.1/c3.min.css">
+    <title>C3.js</title>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.7.1/c3.min.js"></script>
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html">Index</a> Chart.js <a href="chart-01.html">01</a> <a href="chart-02.html">02</a> <a href="chart-03.html">03</a> <a href="chart-04.html">04</a>  <a href="chart-05.html">05</a> C3.js <a href="c3-01.html">01</a> <a href="c3-02.html" class="actual">02</a> <a href="c3-03.html">03</a> D3plus <a href="d3plus-01.html">01</a> <a href="d3plus-02.html">02</a> <a href="d3plus-03.html">03</a>
+    </nav>
+
+    <div id="chart"></div>
+
+    <script>
+        //Estoy yendo por un grupo actualizados, consultando a la API https://mindicador.cl/ 
+
+        d3.json("https://mindicador.cl/api/euro").then(function(datos) {
+
+            var euros = [];
+
+            datos.serie.forEach(function(d) {
+                euros.push(d.valor)
+            });
+
+            var chart = c3.generate({
+                bindto: '#chart',
+                data: {
+                    columns: [
+                        ['Variación de 30 días en el precio del Euro'].concat(euros.reverse())
+                    ]
+                },
+                axis: {
+                    x: {
+                        min: 0,
+                        padding: {
+                            left: 0,
+                            right: 0
+                        }
+                    },
+                    y: {
+                        max: 850,
+                        min: 750,
+                        padding: {
+                            top: 0,
+                            bottom: 0
+                        }
+                    }
+                }
+            });
+
+        })
+    </script>
+
+</body>
+
+</html>
