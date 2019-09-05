@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <title>C3.js</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
 </head>
 
@@ -19,38 +21,246 @@
     <canvas id="chart"></canvas>
 
     <script>
-        // Referencia de programación: https://youtu.be/5-ptp9tRApM
-        // Fuente de datos: https://data.giss.nasa.gov/gistemp/
-        var desempleo;
-        var etiquetas = [];
-        var cifra = [];
+        // Muestra de 3 comunas según ubicación: https://es.wikipedia.org/wiki/Anexo:Comunas_de_Santiago_de_Chile#Conurbaci%C3%B3n_de_Santiago
+        var icvu, sel;
+        var nororiente = [
+            [],
+            [],
+            []
+        ];
+        var norponiente = [
+            [],
+            [],
+            []
+        ];
+        var suroriente = [
+            [],
+            [],
+            []
+        ];
+        var surponiente = [
+            [],
+            [],
+            []
+        ];
 
         function preload() {
-            desempleo = loadJSON('https://mindicador.cl/api/tasa_desempleo');
+            icvu = loadTable('https://raw.githubusercontent.com/profesorfaco/datos/gh-pages/datos/icvu-2019-zonas.csv', 'csv', 'header');
 
         }
 
         function setup() {
             noCanvas();
-            for (var i = 0; i < desempleo.serie.length; i++) {
-                etiquetas.push((desempleo.serie[i].fecha).substring(0, 10));
-                cifra.push(desempleo.serie[i].valor);
+
+            sel = createSelect();
+            sel.position(18, 18);
+            sel.option('Nororiente', 0);
+            sel.option('Norponiente', 1);
+            sel.option('Suroriente', 2);
+            sel.option('Surponiente', 3);
+
+            sel.changed(opciones);
+
+            for (var i = 0; i < 7; i++) {
+
+                nororiente[0].push(icvu.get(5, i));
+                nororiente[1].push(icvu.get(2, i));
+                nororiente[2].push(icvu.get(6, i));
+
+                norponiente[0].push(icvu.get(9, i));
+                norponiente[1].push(icvu.get(7, i));
+                norponiente[2].push(icvu.get(11, i));
+
+                suroriente[0].push(icvu.get(28, i));
+                suroriente[1].push(icvu.get(27, i));
+                suroriente[2].push(icvu.get(30, i));
+
+                surponiente[0].push(icvu.get(32, i));
+                surponiente[1].push(icvu.get(31, i));
+                surponiente[2].push(icvu.get(33, i));
+
             }
 
-            //creo el gráfico con chart.js dentro del setup de p5.js
+            no();
+        }
+
+        function opciones() {
+            clear();
+            if (sel.value() == 0) {
+                no();
+            } else if (sel.value() == 1) {
+                np();
+            } else if (sel.value() == 2) {
+                so();
+            } else {
+                sp();
+            }
+        }
+
+        function no() {
             new Chart(document.getElementById('chart').getContext('2d'), {
-                type: 'line',
+                type: 'radar',
                 data: {
-                    labels: etiquetas.reverse(),
+                    labels: ["Condiciones Laborales", "Ambiente de Negocios", "Condiciones socioculturales", "Conectividad y Movilidad", "Salud y Medio Ambiente", "Vivienda y Entorno"],
                     datasets: [{
-                        label: 'Desempleo',
-                        backgroundColor: 'rgba(255, 100, 0,.1)',
-                        borderColor: 'rgb(255, 100, 0)',
-                        borderWidth: 2,
-                        pointRadius: 2,
+                        label: nororiente[0][0],
+                        backgroundColor: 'rgba(255, 175, 175,.1)',
+                        borderColor: '#F44336',
+                        borderWidth: 1,
+                        pointRadius: 1,
                         lineTension: 0,
-                        data: cifra.reverse(),
+                        data: nororiente[0].slice(1),
+                    }, {
+                        label: nororiente[1][0],
+                        backgroundColor: 'rgba(255, 175, 255,.1)',
+                        borderColor: '#9C27B0',
+                        borderWidth: 1,
+                        pointRadius: 1,
+                        lineTension: 0,
+                        data: nororiente[1].slice(1),
+                    }, {
+                        label: nororiente[2][0],
+                        backgroundColor: 'rgba(175, 175, 255,.1)',
+                        borderColor: '#3F51B5',
+                        borderWidth: 1,
+                        pointRadius: 1,
+                        lineTension: 0,
+                        data: nororiente[2].slice(1),
                     }]
+                },
+                options: {
+                    scale: {
+                        ticks: {
+                            min: 0,
+                            max: 100
+                        }
+                    }
+                }
+            });
+        }
+
+        function np() {
+            new Chart(document.getElementById('chart').getContext('2d'), {
+                type: 'radar',
+                data: {
+                    labels: ["Condiciones Laborales", "Ambiente de Negocios", "Condiciones socioculturales", "Conectividad y Movilidad", "Salud y Medio Ambiente", "Vivienda y Entorno"],
+                    datasets: [{
+                        label: norponiente[0][0],
+                        backgroundColor: 'rgba(255, 175, 175,.1)',
+                        borderColor: '#F44336',
+                        borderWidth: 1,
+                        pointRadius: 1,
+                        lineTension: 0,
+                        data: norponiente[0].slice(1),
+                    }, {
+                        label: norponiente[1][0],
+                        backgroundColor: 'rgba(255, 175, 255,.1)',
+                        borderColor: '#9C27B0',
+                        borderWidth: 1,
+                        pointRadius: 1,
+                        lineTension: 0,
+                        data: norponiente[1].slice(1),
+                    }, {
+                        label: norponiente[2][0],
+                        backgroundColor: 'rgba(175, 175, 255,.1)',
+                        borderColor: '#3F51B5',
+                        borderWidth: 1,
+                        pointRadius: 1,
+                        lineTension: 0,
+                        data: norponiente[2].slice(1),
+                    }]
+                },
+                options: {
+                    scale: {
+                        ticks: {
+                            min: 0,
+                            max: 100
+                        }
+                    }
+                }
+            });
+        }
+
+        function so() {
+            new Chart(document.getElementById('chart').getContext('2d'), {
+                type: 'radar',
+                data: {
+                    labels: ["Condiciones Laborales", "Ambiente de Negocios", "Condiciones socioculturales", "Conectividad y Movilidad", "Salud y Medio Ambiente", "Vivienda y Entorno"],
+                    datasets: [{
+                        label: suroriente[0][0],
+                        backgroundColor: 'rgba(255, 175, 175,.1)',
+                        borderColor: '#F44336',
+                        borderWidth: 1,
+                        pointRadius: 1,
+                        lineTension: 0,
+                        data: suroriente[0].slice(1),
+                    }, {
+                        label: suroriente[1][0],
+                        backgroundColor: 'rgba(255, 175, 255,.1)',
+                        borderColor: '#9C27B0',
+                        borderWidth: 1,
+                        pointRadius: 1,
+                        lineTension: 0,
+                        data: suroriente[1].slice(1),
+                    }, {
+                        label: suroriente[2][0],
+                        backgroundColor: 'rgba(175, 175, 255,.1)',
+                        borderColor: '#3F51B5',
+                        borderWidth: 1,
+                        pointRadius: 1,
+                        lineTension: 0,
+                        data: suroriente[2].slice(1),
+                    }]
+                },
+                options: {
+                    scale: {
+                        ticks: {
+                            min: 0,
+                            max: 100
+                        }
+                    }
+                }
+            });
+        }
+
+        function sp() {
+            new Chart(document.getElementById('chart').getContext('2d'), {
+                type: 'radar',
+                data: {
+                    labels: ["Condiciones Laborales", "Ambiente de Negocios", "Condiciones socioculturales", "Conectividad y Movilidad", "Salud y Medio Ambiente", "Vivienda y Entorno"],
+                    datasets: [{
+                        label: surponiente[0][0],
+                        backgroundColor: 'rgba(255, 175, 175,.1)',
+                        borderColor: '#F44336',
+                        borderWidth: 1,
+                        pointRadius: 1,
+                        lineTension: 0,
+                        data: surponiente[0].slice(1),
+                    }, {
+                        label: surponiente[1][0],
+                        backgroundColor: 'rgba(255, 175, 255,.1)',
+                        borderColor: '#9C27B0',
+                        borderWidth: 1,
+                        pointRadius: 1,
+                        lineTension: 0,
+                        data: surponiente[1].slice(1),
+                    }, {
+                        label: surponiente[2][0],
+                        backgroundColor: 'rgba(175, 175, 255,.1)',
+                        borderColor: '#3F51B5',
+                        borderWidth: 1,
+                        pointRadius: 1,
+                        lineTension: 0,
+                        data: surponiente[2].slice(1),
+                    }]
+                },
+                options: {
+                    scale: {
+                        ticks: {
+                            min: 0,
+                            max: 100
+                        }
+                    }
                 }
             });
         }
