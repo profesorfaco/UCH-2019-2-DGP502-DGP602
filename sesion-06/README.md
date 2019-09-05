@@ -42,7 +42,7 @@ Luego, si queremos hacer visualizaciones, podemos aprovechar todas o parte de la
 
 ### SVG
 
-Pero el canvas no es la única manera en que se pueden incluir gráficos interactivo en una págian web. También está [SVG](https://developer.mozilla.org/es/docs/Web/SVG). 
+Pero el canvas no es la única manera en que se pueden incluir gráficos interactivo en una página web. También está [SVG](https://developer.mozilla.org/es/docs/Web/SVG). 
 
 - [¿Canvas o SVG?](https://www.arsys.es/blog/programacion/diseno-web/canvas-o-svg/)
 
