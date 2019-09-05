@@ -31,7 +31,7 @@ function setup() {
 
 Incluso antes del dibujo en el [canvas](https://developer.mozilla.org/es/docs/Web/Guide/HTML/Canvas_tutorial) y la manipulación del [DOM](https://developer.mozilla.org/es/docs/DOM), p5.js nos puede ayudar: Nos permite precargar datos mediante `loadJSON()`, `loadStrings()`, `loadTable()`, evitándonos algunas complicaciones del [Fetch](https://www.youtube.com/watch?v=tc8DU14qX6I).
 
-Luego, si queremos hacer visualizaciones, podemos aprovechar todas o parte de las ayudas recién descritas (dibujo en canvas, manipulación del DOM o precarga de datos). Y si el dibujo en el canvas resulta muy complejo: Podríamos aprovechar otras bibliotecas enfocadas en facilitarlo. Así podríamos trabajar, sin problemas, con p5.js y [Chart.js](https://www.chartjs.org/): **Eso es lo que adelantamos en la evaluación de la [sesión recién pasada](https://github.com/profesorfaco/grafica_computacional/tree/gh-pages/sesion-05) y es lo que exploraremos con parte de los ejercicios en este repositorio.** 
+Luego, si queremos hacer visualizaciones, podemos aprovechar todas o parte de las ayudas recién descritas (dibujo en canvas, manipulación del DOM o precarga de datos). Y si el dibujo en el canvas resulta muy complejo: Podríamos aprovechar otras bibliotecas enfocadas en facilitarlo. Así podríamos trabajar, sin problemas, con p5.js y [Chart.js](https://www.chartjs.org/): **Eso es lo que adelantamos en la evaluación de la [sesión recién pasada](https://github.com/profesorfaco/grafica_computacional/tree/gh-pages/sesion-05) y es lo que exploraremos con parte de los ejercicios en [este repositorio](https://profesorfaco.github.io/grafica_computacional/sesion-06/).** 
 
 #### CHART.JS / Simple yet flexible JavaScript charting for designers & developers
 
