@@ -38,6 +38,7 @@ Luego, si queremos hacer visualizaciones, podemos aprovechar todas o parte de la
 - https://www.chartjs.org/docs/latest/
 - https://www.chartjs.org/samples/latest/
 
+--------------
 
 ### SVG
 
