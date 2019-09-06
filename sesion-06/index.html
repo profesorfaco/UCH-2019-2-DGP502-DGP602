@@ -14,6 +14,51 @@
         <a href="index.html" class="actual">Index</a> Chart.js <a href="chart-01.html">01</a> <a href="chart-02.html">02</a> <a href="chart-03.html">03</a> <a href="chart-04.html">04</a> <a href="chart-05.html">05</a> C3.js <a href="c3-01.html">01</a> <a href="c3-02.html">02</a> <a href="c3-03.html">03</a> D3plus <a href="d3plus-01.html">01</a> <a href="d3plus-02.html">02</a> <a href="d3plus-03.html">03</a>
     </nav>
 
+    <div id="home">
+        <!--en lo que sigue tenemos lo del primer script-->
+        <div id="canvas_solo">
+            <canvas id="unCanvas"></canvas>
+        </div>
+        <!--en lo que sigue tenemos lo del segundo script-->
+        <div id="canvas_p5"></div>
+        <!--en lo que sigue tenemos lo del tercer script-->
+        <div id="svg_d3"></div>
+        <!--en lo que sigue no hay script-->
+        <div id="svg_solo">
+            <svg>
+                <text x="20" y="50" font-family="Helvetica" font-size="30">Hola mundo, soy SVG!</text>
+            </svg>
+        </div>
+    </div>
+
 </body>
+<!--al canvas, sin biblioteca-->
+<script>
+    var alto = document.getElementById("canvas_solo").offsetHeight;
+    var ancho = document.getElementById("canvas_solo").offsetWidth;
+    var c = document.getElementById("unCanvas");
+    c.height = alto;
+    c.width = ancho;
+    var contexto = c.getContext("2d");
+    contexto.font = "30px Helvetica";
+    contexto.fillText("Hola mundo, soy canvas!", 20, 50);
+</script>
+<!--con biblioteca, creo un canvas dentro de un div-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+<script>
+    function setup() {
+        createCanvas(ancho, alto).parent("canvas_p5");
+        textSize(30);
+        text("Hola mundo, soy canvas!", 20, 50);
+        line(ancho, 0, 0, alto);
+    }
+</script>
+<!--con biblioteca, creo un svg dentro de un div-->
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script>
+    var aqui = d3.select('#svg_d3').append('svg').attr("width", ancho).attr("height", alto);
+    aqui.append("text").attr("x", 20).attr("y", 50).attr('font-family', 'Helvetica').attr('font-size', 30).text("Hola mundo, soy SVG!");
+    aqui.append("line").attr('x1', ancho).attr('y1', 0).attr('x2', 0).attr('y2', alto).attr('stroke', 'black');
+</script>
 
 </html>

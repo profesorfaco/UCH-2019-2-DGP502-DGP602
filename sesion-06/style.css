@@ -64,3 +64,17 @@ nav a:hover{
     background:black;
     font-weight: 500;
 }
+
+div#home{
+    margin-left:8%;
+    width:92%;
+    height:100vh;
+    background:linear-gradient(90deg, white, silver);
+}
+
+div#canvas_solo, div#canvas_p5, div#svg_solo, div#svg_d3{
+    width:50%;
+    height:50vh;
+    float:left;
+    overflow: hidden;
+}
