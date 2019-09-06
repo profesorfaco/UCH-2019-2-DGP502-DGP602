@@ -79,8 +79,8 @@ Pero hacerlo con D3.js implica dar instrucciones desde JavaScript para que se di
 ```
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script>
-	var espacio = d3.select("body").append("svg").attr("width", 400).attr("height", 400).style("background-color", "silver")
-	espacio.append("circle").attr("cx", 200).attr("cy", 200).attr("r", "50").attr("fill", "yellow")
+	var espacio = d3.select("body").append("svg").attr("width", 400).attr("height", 400).style("background-color", "silver");
+	espacio.append("circle").attr("cx", 200).attr("cy", 200).attr("r", "50").attr("fill", "yellow");
 </script>
 ```
 
