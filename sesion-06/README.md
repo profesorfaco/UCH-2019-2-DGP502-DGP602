@@ -74,7 +74,7 @@ Por ejemplo, si quisiéramos dibujar un círculo amarillo, de radio 50 pixeles, 
 </svg>
 ```
 
-Pero hacerlo con D3.js implica dar instrucciones desde JavaScript para que se dibujo aquello según estándares SVG:
+Pero hacerlo con D3.js implica dar instrucciones desde JavaScript para que aquello se dibuje según estándares SVG:
 
 ```
 <script src="https://d3js.org/d3.v5.min.js"></script>
