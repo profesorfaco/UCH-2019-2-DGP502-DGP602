@@ -59,3 +59,29 @@ Como la simplificación va entre comillas, convendría partir por bibliotecas qu
 #### C3.JS / D3-based reusable chart library
 - https://c3js.org/reference.html
 - https://c3js.org/examples.html
+
+#### ¿Pero por qué partir al revés?
+
+Porque [D3 (Data Driven Documents)](https://d3js.org/) es una biblioteca que ofrece, desde JavaSCript, una manipulación eficiente y flexible de los documentos basados en datos, atendiendo a los estándares de HTML, SVG y CSS.
+
+Con D3.js podemos tomar un JSON, pasarlo a una variable, desplegar tales datos en una tabla HTML y, también, generar un gráfico de barras en SVG. Pero una cosa es decirlo y otra es hacerlo; D3 no es un marco que proporcione las características que facilitarían generar el gráfico.
+
+Por ejemplo, si quisiéramos dibujar un círculo amarillo, de radio 50 pixeles, al centro de un espacio SVG gris, de 400 x 400 pixeles, lo podríamos hacer sin D3.js, utilizando el dialecto SVG, de la siguiente manera: 
+
+```
+<svg width="400" height="400" style="background-color:silver">
+<circle cx="200" cy="200" r="50" fill="yellow"></circle>
+</svg>
+```
+
+Pero hacerlo con D3.js implica dar instrucciones desde JavaScript para que se dibujo aquello según estándares SVG:
+
+```
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script>
+	var espacio = d3.select("body").append("svg").attr("width", 400).attr("height", 400).style("background-color", "silver")
+	espacio.append("circle").attr("cx", 200).attr("cy", 200).attr("r", "50").attr("fill", "yellow")
+</script>
+```
+
+¿Dónde está la gracia? Aquí no está. La gracias de D3.js es la manipulación de datos, que luego pueden visualizarse de modo [simple](https://www.d3-graph-gallery.com/) o más [complejo](https://github.com/d3/d3/wiki/Gallery), con harta programación.
