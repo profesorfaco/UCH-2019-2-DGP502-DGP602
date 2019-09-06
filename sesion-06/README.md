@@ -62,7 +62,7 @@ Como la simplificación va entre comillas, convendría partir por bibliotecas qu
 
 #### ¿Pero por qué partir al revés?
 
-Porque [D3 (Data Driven Documents)](https://d3js.org/) es una biblioteca que ofrece, desde JavaSCript, una manipulación eficiente y flexible de los documentos basados en datos, atendiendo a los estándares de HTML, SVG y CSS.
+Porque [D3 (Data Driven Documents)](https://d3js.org/) es una biblioteca que ofrece, desde JavaScript, una manipulación eficiente y flexible de los documentos basados en datos, atendiendo a los estándares de HTML, SVG y CSS.
 
 Con D3.js podemos tomar un JSON, pasarlo a una variable, desplegar tales datos en una tabla HTML y, también, generar un gráfico de barras en SVG. Pero una cosa es decirlo y otra es hacerlo; D3 no es un marco que proporcione las características que facilitarían generar el gráfico.
 
