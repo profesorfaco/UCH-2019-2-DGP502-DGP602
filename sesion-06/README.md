@@ -84,4 +84,4 @@ Pero hacerlo con D3.js implica dar instrucciones desde JavaScript para que se di
 </script>
 ```
 
-¿Dónde está la gracia? Aquí no está. La gracias de D3.js es la manipulación de datos, que luego pueden visualizarse de modo [simple](https://www.d3-graph-gallery.com/) o más [complejo](https://github.com/d3/d3/wiki/Gallery), con harta programación.
+¿Dónde está la gracia? Aquí no está. La gracias de D3.js es la manipulación de datos… que luego pueden visualizarse de modo [simple](https://www.d3-graph-gallery.com/) o más [complejo](https://github.com/d3/d3/wiki/Gallery), con harta programación.
