@@ -2,7 +2,7 @@
 
 ### CANVAS
 
-[p5.js](https://p5js.org/es/reference/) ayuda a introducirnos a la programación en JavaScript; usándolo podemos, por ejemplo, dibujar una elipse en un [canvas](https://developer.mozilla.org/es/docs/Web/Guide/HTML/Canvas_tutorial) de 800 pixeles de ancho y 600 de alto:
+[p5.js](https://p5js.org/es/reference/) ayuda a introducirnos a la programación en JavaScript; usándolo podemos, por ejemplo, dibujar una elipse al centro de un [canvas](https://developer.mozilla.org/es/docs/Web/Guide/HTML/Canvas_tutorial) de 800 pixeles de ancho y 600 de alto:
 
 ```
 function setup(){
