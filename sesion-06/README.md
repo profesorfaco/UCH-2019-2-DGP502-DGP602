@@ -70,7 +70,7 @@ Por ejemplo, si quisiéramos dibujar un círculo amarillo, de radio 50 pixeles, 
 
 ```
 <svg width="400" height="400" style="background-color:silver">
-<circle cx="200" cy="200" r="50" fill="yellow"></circle>
+	<circle cx="200" cy="200" r="50" fill="yellow"></circle>
 </svg>
 ```
 
