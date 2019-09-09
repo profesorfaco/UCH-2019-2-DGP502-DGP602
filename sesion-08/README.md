@@ -10,19 +10,21 @@ El trabajo también se podría hacer individualmente, pero prefieran la opción 
 
 **El trabajo se evaluará considerando:**
 
-- Entre 0,0 y 1,0 por la pertinencia y coherencia de los datos conseguidos (datos que vengan al propósito de decir algo desde/para el diseño y que muestren distintas dimensiones de un mismo asunto)
+- Entre 0,0 y 0,5 por la pertinencia de los datos. Estos datos deben venir al propósito de tantear el campo laboral (desde lo cuantitativo), adelantar su investigación para la etapa de titulación, o complementar su trabajo para Seminario de Diseño Gráfico.
 
-- Entre 0,0 y 1,0 por un gráfico de líneas ([line chart](https://www.chartjs.org/docs/latest/charts/line.html)) hecho con Charts.js
+- Entre 0,0 y 0,5 por la coherencia de los datos. Estos datos deben conectarse o relacionarse entre sí, para el dasarrollo de un "tema paraguas".
 
-- Entre 0,0 y 1,0 por un gráfico de barras ([bar chart](https://www.chartjs.org/docs/latest/charts/bar.html))hecho con Charts.js
+- Entre 0,0 y 1,0 por calidad de un gráfico de líneas ([line chart](https://www.chartjs.org/docs/latest/charts/line.html)) hecho con Charts.js
 
-- Entre 0,0 y 1,0 por un gráfico radar ([radar chart](https://www.chartjs.org/docs/latest/charts/radar.html)) o de otro tipo antes no mencionado ([pie and doughnut](https://www.chartjs.org/docs/latest/charts/doughnut.html), [polar area](https://www.chartjs.org/docs/latest/charts/polar.html), [bubble](https://www.chartjs.org/docs/latest/charts/bubble.html), [scatter](https://www.chartjs.org/docs/latest/charts/scatter.html) charts)
+- Entre 0,0 y 1,0 por calidad de un gráfico de barras ([bar chart](https://www.chartjs.org/docs/latest/charts/bar.html))hecho con Charts.js
+
+- Entre 0,0 y 1,0 por calidad de un gráfico de radar ([radar chart](https://www.chartjs.org/docs/latest/charts/radar.html)) o de otro tipo de los que ofrece Chart.js ([pie and doughnut](https://www.chartjs.org/docs/latest/charts/doughnut.html), [polar area](https://www.chartjs.org/docs/latest/charts/polar.html), [bubble](https://www.chartjs.org/docs/latest/charts/bubble.html), [scatter](https://www.chartjs.org/docs/latest/charts/scatter.html) charts)
 
 - Entre 0,0 y 1,0 por gráfico de líneas hecho con [c3.js](https://c3js.org/gettingstarted.html)
 
 - Entre 0,0 y 1,0 por treemap hecho con [D3plus](https://d3plus.org/examples/d3plus-hierarchy/getting-started/).
 
-- Entre 0,0 y 1,0 por sitio web entregado, donde se despliegan los distintos gráficos solicitados.
+- Entre 0,0 y 1,0 por el sitio web, con un mínimo de 5 páginas. En cada página se despliega una visualización de las solicitadas.
 
 #### REFERENCIAS
 
