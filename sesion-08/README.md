@@ -28,7 +28,9 @@ El trabajo también se podría hacer individualmente, pero prefieran la opción 
 
 #### REFERENCIAS
 
+- [Introducción a Chart.js, D3plus.js, C3.js](https://github.com/profesorfaco/grafica_computacional/tree/gh-pages/sesion-06)
 - [Documentación para Chart.js](https://www.chartjs.org/docs/latest/)
 - [Documentación para el nuevo d3plus 2.0](https://d3plus.org/docs/)
 - [Referencias para C3.js | D3-based reusable chart library](https://c3js.org/reference.html)
 - [*…how to parse in and prepare common input formats using D3.js*](http://learnjsdata.com/read_data.html)
+
