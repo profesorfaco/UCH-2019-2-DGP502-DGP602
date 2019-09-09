@@ -59,7 +59,7 @@ Este aporte se hace reforzando los procesos de búsqueda, recopilación y visual
 - Búsqueda de datos sobre diseño
 
 #### Sesión 8: Lunes 30 de septiembre
-- Evaluación de Chart.js, D3Plus.js, C3.js
+- [Evaluación de Chart.js, D3Plus.js, C3.js](https://github.com/profesorfaco/grafica_computacional/tree/gh-pages/sesion-08)
 
 #### Sesión 9: Lunes 7 de octubre
 - ENEDI2019 - El encuentro territorial en Santiago está programado para 8-10 de octubre. La clase podría cambiar por apoyo a la organización.
