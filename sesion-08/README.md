@@ -4,7 +4,7 @@
 
 En duplas, programar visualizaciones de datos utilizando [Chart.js](https://www.chartjs.org/), [D3plus](https://d3plus.org/) y [C3.js](https://c3js.org/)
 
-Cada dupla decide cómo trabajar con los datos. Pueden crear variables dentro de cada script o ir por los datos en línea, sea como CSV o JSON.
+Cada dupla decide cómo trabajar con los datos; pueden crear variables dentro de cada script o ir por los datos en línea, sea como CSV o JSON.
 
 El trabajo también se podría hacer individualmente, pero prefieran la opción de la dupla. También podrían hacer tríos SI Y SOLO SI estos se componen con estudiantes en niveles I y II.
 
