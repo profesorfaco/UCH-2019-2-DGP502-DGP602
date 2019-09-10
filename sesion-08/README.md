@@ -19,7 +19,7 @@ El trabajo también se podría hacer individualmente, pero prefieran la opción 
 | Calidad de un [gráfico radial](https://datavizcatalogue.com/ES/metodos/grafico_radial.html) ([radar chart](https://www.chartjs.org/docs/latest/charts/radar.html)) o de otro tipo de los que ofrece Chart.js (puede ser [pie and doughnut](https://www.chartjs.org/docs/latest/charts/doughnut.html), [polar area](https://www.chartjs.org/docs/latest/charts/polar.html), [bubble](https://www.chartjs.org/docs/latest/charts/bubble.html), o [scatter](https://www.chartjs.org/docs/latest/charts/scatter.html) chart) | 0,0 | 1,0 |
 | Calidad de gráfico de líneas hecho con [c3.js](https://c3js.org/gettingstarted.html) | 0,0 | 1,0 |
 | Calidad de [mapa de árbol](https://datavizcatalogue.com/ES/metodos/mapa_de_arbol.html) (treemap) hecho con [D3plus](https://d3plus.org/examples/d3plus-hierarchy/getting-started/) | 0,0 | 1,0 |
-| Sitio web, con un mínimo de 5 páginas. En cada página se despliega una visualización de las solicitadas | 0,0 | 1,0 |
+| Sitio web con 6 páginas, partiendo desde el ejemplo contenido en este repositorio | 0,0 | 1,0 |
 
 
 #### REFERENCIAS
