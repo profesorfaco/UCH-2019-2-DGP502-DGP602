@@ -2,7 +2,7 @@
 
 ### Evaluación de Chart.js, D3plus.js, C3.js
 
-Deben programar visualizaciones con datos que hayan conseguido, utilizando [Chart.js](https://www.chartjs.org/), [D3plus](https://d3plus.org/) y [C3.js](https://c3js.org/)
+En duplas, programar visualizaciones de datos utilizando [Chart.js](https://www.chartjs.org/), [D3plus](https://d3plus.org/) y [C3.js](https://c3js.org/)
 
 Cada dupla decide cómo trabajar con los datos. Pueden crear variables dentro de cada script o ir por los datos en línea, sea como CSV o JSON.
 
