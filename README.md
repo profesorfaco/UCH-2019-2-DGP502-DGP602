@@ -65,15 +65,12 @@ Este aporte se hace reforzando los procesos de búsqueda, recopilación y visual
 - ENEDI2019 - El encuentro territorial en Santiago está programado para 8-10 de octubre. La clase podría cambiar por apoyo a la organización.
 
 #### Sesión 10: Lunes 14 de octubre
-- Introducción a D3.js
 - Selección de tema de visualización final
 
 #### Sesión 11: Lunes 21 de octubre
-- D3.js - D3Plus.js - C3.js
 - Avance en tema de visualización final
 
 #### Sesión 12: Lunes 28 de octubre
-- C3.js
 - Avance en tema de visualización final
 
 #### Sesión 13: Lunes 4 de noviembre
