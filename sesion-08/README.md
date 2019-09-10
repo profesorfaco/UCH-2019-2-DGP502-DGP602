@@ -17,8 +17,8 @@ El trabajo también se podría hacer individualmente, pero prefieran la opción 
 | Calidad de una gráfica de línea ([line chart](https://www.chartjs.org/docs/latest/charts/line.html)) hecho con Charts.js – Puede complementarse con p5.js | 0,0 | 1,0 |
 | Calidad de un gráfico de barras ([bar chart](https://www.chartjs.org/docs/latest/charts/bar.html))hecho con Charts.js – Puede complementarse con p5.js| 0,0 | 1,0 |
 | Calidad de un gráfico radial ([radar chart](https://www.chartjs.org/docs/latest/charts/radar.html)) o de otro tipo de los que ofrece Chart.js (puede ser [pie and doughnut](https://www.chartjs.org/docs/latest/charts/doughnut.html), [polar area](https://www.chartjs.org/docs/latest/charts/polar.html), [bubble](https://www.chartjs.org/docs/latest/charts/bubble.html), o [scatter](https://www.chartjs.org/docs/latest/charts/scatter.html) chart) - Cualquiera sea la opción, debe complementarse con un select creado con p5.dom.js | 0,0 | 1,0 |
-| Calidad de gráfico de líneas hecho con [c3.js](https://c3js.org/gettingstarted.html) - Puede complementarlo con un llamado a datos con d3.js | 0,0 | 1,0 |
-| Calidad de mapa de árbol (treemap) hecho con [D3plus](https://d3plus.org/examples/d3plus-hierarchy/getting-started/) - Puede complementarlo con un llamado a datos con d3.js | 0,0 | 1,0 |
+| Calidad de gráfico de líneas hecho con [c3.js](https://c3js.org/gettingstarted.html) - Puede complementarse con un llamado a datos con d3.js | 0,0 | 1,0 |
+| Calidad de mapa de árbol (treemap) hecho con [D3plus](https://d3plus.org/examples/d3plus-hierarchy/getting-started/) - Puede complementarse con un llamado a datos con d3.js | 0,0 | 1,0 |
 | Punto base: Sitio web con 6 páginas, [partiendo desde el ejemplo contenido en este repositorio](https://profesorfaco.github.io/grafica_computacional/sesion-08/) | 0,0 | 1,0 |
 
 
