@@ -56,34 +56,38 @@ Este aporte se hace reforzando los procesos de búsqueda, recopilación y visual
 - [Introducción a Chart.js, D3Plus.js, C3.js](https://github.com/profesorfaco/grafica_computacional/tree/gh-pages/sesion-06)
 
 #### Sesión 7: Lunes 23 de septiembre
-- Búsqueda de datos para:
-  - tantear el campo laboral (desde lo cuantitativo);
-  - adelantar su investigación para la etapa de titulación; o 
-  - complementar su trabajo en Seminario de Diseño Gráfico.
+Recabar datos para:
+- tantear el campo laboral (desde lo cuantitativo);
+- adelantar su investigación para la etapa de titulación; o 
+- complementar su trabajo en Seminario de Diseño Gráfico.
+
+El ejercicio de recabar datos debería ser algo útil desde/para el diseño. Y la visualización de esto datos debería tener sentido en [gráficos de barras](https://datavizcatalogue.com/ES/metodos/graficos_de_barras.html), [gráficos de líneas](https://datavizcatalogue.com/ES/metodos/grafica_de_linea.html), [mapas de árbol](https://datavizcatalogue.com/ES/metodos/mapa_de_arbol.html) o [gráficos de radar](https://datavizcatalogue.com/ES/metodos/grafico_radial.html).
+
+Tales datos serán utilizados para la evaluación que se desarrollará en la sesión 8.
 
 #### Sesión 8: Lunes 30 de septiembre
-- [Evaluación de Chart.js, D3Plus.js, C3.js](https://github.com/profesorfaco/grafica_computacional/tree/gh-pages/sesion-08)
+[Evaluación de Chart.js, D3Plus.js, C3.js](https://github.com/profesorfaco/grafica_computacional/tree/gh-pages/sesion-08)
 
 #### Sesión 9: Lunes 7 de octubre
-- ENEDI2019 - El encuentro territorial en Santiago está programado para 8-10 de octubre. La clase podría cambiar por apoyo a la organización.
+ENEDI2019 - El encuentro territorial en Santiago está programado para 8-10 de octubre. La clase podría cambiar por apoyo a la organización.
 
 #### Sesión 10: Lunes 14 de octubre
-- Selección de tema de visualización final
+Selección de tema de visualización final
 
 #### Sesión 11: Lunes 21 de octubre
-- Avance en tema de visualización final
+Avance en tema de visualización final
 
 #### Sesión 12: Lunes 28 de octubre
-- Avance en tema de visualización final
+Avance en tema de visualización final
 
 #### Sesión 13: Lunes 4 de noviembre
-- Pre-entrega
+Pre-entrega
 
 #### Sesión 14: Lunes 11 de noviembre
-- Pre-entrega
+Pre-entrega
 
 #### Sesión 15: Lunes 18 de noviembre
-- Entrega final
+Entrega final
 
 - - - - - -
 
