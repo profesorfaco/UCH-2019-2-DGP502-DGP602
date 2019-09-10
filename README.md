@@ -56,7 +56,10 @@ Este aporte se hace reforzando los procesos de búsqueda, recopilación y visual
 - [Introducción a Chart.js, D3Plus.js, C3.js](https://github.com/profesorfaco/grafica_computacional/tree/gh-pages/sesion-06)
 
 #### Sesión 7: Lunes 23 de septiembre
-- Búsqueda de datos para tantear el campo laboral (desde lo cuantitativo), o datos para adelantar su investigación para la etapa de titulación, o datos para complementar su trabajo para Seminario de Diseño Gráfico.
+- Búsqueda de datos para:
+  - tantear el campo laboral (desde lo cuantitativo);
+  - adelantar su investigación para la etapa de titulación; o 
+  - complementar su trabajo en Seminario de Diseño Gráfico.
 
 #### Sesión 8: Lunes 30 de septiembre
 - [Evaluación de Chart.js, D3Plus.js, C3.js](https://github.com/profesorfaco/grafica_computacional/tree/gh-pages/sesion-08)
