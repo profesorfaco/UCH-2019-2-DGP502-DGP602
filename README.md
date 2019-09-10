@@ -69,7 +69,7 @@ No hay clases, pero deben recabar datos para:
 - adelantar su investigación para la etapa de titulación; o 
 - complementar su trabajo en Seminario de Diseño Gráfico.
 
-Piensen este ejercicio de recabar datos como algo útil desde/para el diseño. Y consideren que la visualización de esto datos debería tener sentido en [gráficos de barras](https://datavizcatalogue.com/ES/metodos/graficos_de_barras.html), [gráficos de líneas](https://datavizcatalogue.com/ES/metodos/grafica_de_linea.html), [mapas de árbol](https://datavizcatalogue.com/ES/metodos/mapa_de_arbol.html) o [gráficos de radar](https://datavizcatalogue.com/ES/metodos/grafico_radial.html).
+Piensen este ejercicio como algo útil desde/para el diseño. Y consideren que la visualización de lo recabado debería tener sentido en [gráficos de barras](https://datavizcatalogue.com/ES/metodos/graficos_de_barras.html), [gráficos de líneas](https://datavizcatalogue.com/ES/metodos/grafica_de_linea.html), [mapas de árbol](https://datavizcatalogue.com/ES/metodos/mapa_de_arbol.html) y [gráficos de radar](https://datavizcatalogue.com/ES/metodos/grafico_radial.html), según corresponda.
 
 Sus datos serán utilizados para la evaluación que se desarrollará en la sesión 8.
 
