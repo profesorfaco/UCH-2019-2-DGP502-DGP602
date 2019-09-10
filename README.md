@@ -56,12 +56,12 @@ Este aporte se hace reforzando los procesos de búsqueda, recopilación y visual
 - [Introducción a Chart.js, D3Plus.js, C3.js](https://github.com/profesorfaco/grafica_computacional/tree/gh-pages/sesion-06)
 
 #### Sesión 7: Lunes 23 de septiembre
-Recabar datos para:
+No hay clases, pero deben recabar datos para:
 - tantear el campo laboral (desde lo cuantitativo);
 - adelantar su investigación para la etapa de titulación; o 
 - complementar su trabajo en Seminario de Diseño Gráfico.
 
-El ejercicio de recabar datos debería ser algo útil desde/para el diseño. Y la visualización de esto datos debería tener sentido en [gráficos de barras](https://datavizcatalogue.com/ES/metodos/graficos_de_barras.html), [gráficos de líneas](https://datavizcatalogue.com/ES/metodos/grafica_de_linea.html), [mapas de árbol](https://datavizcatalogue.com/ES/metodos/mapa_de_arbol.html) o [gráficos de radar](https://datavizcatalogue.com/ES/metodos/grafico_radial.html).
+Piensen este ejercicio de recabar datos como algo útil desde/para el diseño. Y consideren que la visualización de esto datos debería tener sentido en [gráficos de barras](https://datavizcatalogue.com/ES/metodos/graficos_de_barras.html), [gráficos de líneas](https://datavizcatalogue.com/ES/metodos/grafica_de_linea.html), [mapas de árbol](https://datavizcatalogue.com/ES/metodos/mapa_de_arbol.html) o [gráficos de radar](https://datavizcatalogue.com/ES/metodos/grafico_radial.html).
 
 Tales datos serán utilizados para la evaluación que se desarrollará en la sesión 8.
 
