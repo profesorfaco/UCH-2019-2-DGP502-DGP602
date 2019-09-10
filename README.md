@@ -71,7 +71,7 @@ No hay clases, pero deben recabar datos para:
 
 Piensen este ejercicio de recabar datos como algo útil desde/para el diseño. Y consideren que la visualización de esto datos debería tener sentido en [gráficos de barras](https://datavizcatalogue.com/ES/metodos/graficos_de_barras.html), [gráficos de líneas](https://datavizcatalogue.com/ES/metodos/grafica_de_linea.html), [mapas de árbol](https://datavizcatalogue.com/ES/metodos/mapa_de_arbol.html) o [gráficos de radar](https://datavizcatalogue.com/ES/metodos/grafico_radial.html).
 
-Tales datos serán utilizados para la evaluación que se desarrollará en la sesión 8.
+Sus datos serán utilizados para la evaluación que se desarrollará en la sesión 8.
 
 #### Sesión 8: Lunes 30 de septiembre
 [Evaluación de Chart.js, D3Plus.js, C3.js](https://github.com/profesorfaco/grafica_computacional/tree/gh-pages/sesion-08)
