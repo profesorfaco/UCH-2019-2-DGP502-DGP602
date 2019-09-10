@@ -26,34 +26,42 @@ Este aporte se hace reforzando los procesos de búsqueda, recopilación y visual
 - [c3.js](https://c3js.org/)
 
 #### Sesión 1 : Lunes 5 de agosto 
+Se divide en dos partes: 
+
 - Presentaciones de títulos: 
   - Constanza Seves
   - Felipe Sepúlveda
 - Programación: Variables de JavaScript, JSON y loadJSON en [el editor de p5.js](https://editor.p5js.org/profesorfaco/sketches/NwzBh3HCu)
 
 #### Sesión 2: Lunes 12 de agosto
+Se divide en dos partes: 
+
 - Presentaciones  de título:
   -  Ignacio Solís
   -  Nicole Cea
 - Programación: Ciclo [for](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/for) y condición [if](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/if...else) en [el editor de p5.js](https://editor.p5js.org/profesorfaco/sketches/14qdRBHU4)
 
 #### Sesiones 3: Lunes 19 de agosto
+Se divide en dos partes: 
+
 - Presentaciones de título: 
   - Rocío Barra
   - Andrea Lara 
 - Programación: p5.js y p5.dom.js en [editor de código fuente](https://profesorfaco.github.io/grafica_computacional/sesion-03/).
 
 #### Sesión 4: Lunes 26 de agosto
+Se divide en dos partes: 
+
 - Presentaciones de título: 
    - Rita Paz Torres
    - Ana Villagrán
 - Programación: p5.js para comparar datos con un vistazo.  
 
 #### Sesión 5: Lunes 2 de septiembre
-- [Evaluación de p5.js](https://github.com/profesorfaco/grafica_computacional/tree/gh-pages/sesion-05)
+[Evaluación de p5.js](https://github.com/profesorfaco/grafica_computacional/tree/gh-pages/sesion-05)
 
 #### Sesión 6: Lunes 9 de septiembre
-- [Introducción a Chart.js, D3Plus.js, C3.js](https://github.com/profesorfaco/grafica_computacional/tree/gh-pages/sesion-06)
+[Introducción a Chart.js, D3Plus.js, C3.js](https://github.com/profesorfaco/grafica_computacional/tree/gh-pages/sesion-06)
 
 #### Sesión 7: Lunes 23 de septiembre
 No hay clases, pero deben recabar datos para:
