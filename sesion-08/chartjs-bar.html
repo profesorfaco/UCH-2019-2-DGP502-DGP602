@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <title>BAR CHART</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html">Index</a> <a href="chartjs-line.html">Line chart</a> <a href="chartjs-bar.html" class="actual">Bar chart</a> <a href="chartjs-radar.html">Radar chart</a> <a href="c3js-line.html">Line Chart</a> <a href="d3plus-treemap.html">Treemap</a>
+    </nav>
+
+    <canvas id="chart"></canvas>
+
+    <script>
+        var data;
+        var etiquetas = [];
+        var ahora = [];
+        var antes = [];
+        var siempre = [];
+
+        //Datos en - http://www.meteochile.cl/PortalDMC-web/climatologia/inicio_climatologia/informe_precipitaciones.xhtml?0.6154106731992215
+
+        function preload() {
+            data = loadTable('https://raw.githubusercontent.com/profesorfaco/datos/gh-pages/datos/no-llueve.csv', 'csv', 'header');
+        }
+
+        function setup() {
+            //relleno unos arreglos []
+            noCanvas();
+            for (var i = 0; i < data.getRowCount(); i++) {
+                etiquetas.push(data.get(i, 1));
+                ahora.push(Number(data.get(i, 2)));
+                antes.push(Number(data.get(i, 3)));
+                siempre.push(Number(data.get(i, 4)));
+            }
+
+            //creo el gráfico con chart.js dentro del setup de p5.js
+            new Chart(document.getElementById('chart').getContext('2d'), {
+                type: 'bar',
+                data: {
+                    labels: etiquetas,
+                    datasets: [{
+                        label: 'Precipitaciones a la fecha (2019)',
+                        backgroundColor: 'rgb(255, 55, 55)',
+                        data: ahora,
+                    }, {
+                        label: 'Precipitaciones a la fecha (2018)',
+                        backgroundColor: 'rgb(0, 155, 100)',
+                        data: antes
+                    }, {
+                        label: 'Precipitaciones a la fecha (Normal)',
+                        backgroundColor: 'rgb(0,155,200)',
+                        data: siempre
+                    }]
+                },
+                options: {
+                    title: {
+                        display: true,
+                        text: 'Informe de precipitaciones'
+                    },
+                    legend: {
+                        position: 'bottom'
+                    },
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                callback: function(value, index, values) {
+                                    return value + ' mm';
+                                }
+                            }
+                        }]
+                    }
+                }
+            });
+        }
+    </script>
+
+</body>
+
+</html>

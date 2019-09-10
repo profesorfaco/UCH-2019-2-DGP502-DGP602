@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <title>LINE CHART</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.7.1/c3.min.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.7.1/c3.min.js"></script>
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html">Index</a> <a href="chartjs-line.html">Line chart</a> <a href="chartjs-bar.html">Bar chart</a> <a href="chartjs-radar.html">Radar chart</a> <a href="c3js-line.html" class="actual">Line Chart</a> <a href="d3plus-treemap.html">Treemap</a>
+    </nav>
+
+    <div id="chart"></div>
+
+    <script>
+        //Estoy yendo por datos actualizados, consultando a la API https://mindicador.cl/ 
+
+        Promise.all([d3.json("https://mindicador.cl/api/dolar"), d3.json("https://mindicador.cl/api/euro")]).then(function(datos) {
+
+            var dolares = [],
+                euros = [];
+
+            datos[0].serie.forEach(function(d) {
+                dolares.push(d.valor)
+            });
+
+            datos[1].serie.forEach(function(d) {
+                euros.push(d.valor)
+            });
+
+            var chart = c3.generate({
+                bindto: '#chart',
+                data: {
+                    columns: [
+                        ['Variación de 30 días en el precio del Euro'].concat(euros.reverse()), ['Variación de 30 días en el precio del Dólar'].concat(dolares.reverse())
+                    ]
+                },
+                axis: {
+                    x: {
+                        min: 0,
+                        padding: {
+                            left: 0,
+                            right: 0
+                        }
+                    },
+                    y: {
+                        max: 900,
+                        min: 600,
+                        padding: {
+                            top: 0,
+                            bottom: 0
+                        }
+                    }
+                }
+            });
+
+        })
+    </script>
+
+</body>
+
+</html>

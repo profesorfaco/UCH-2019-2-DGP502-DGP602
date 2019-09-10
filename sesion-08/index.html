@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <title>INDEX</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html" class="actual">Index</a> <a href="chartjs-line.html">Line chart</a> <a href="chartjs-bar.html">Bar chart</a> <a href="chartjs-radar.html">Radar chart</a> <a href="c3js-line.html">Line Chart</a> <a href="d3plus-treemap.html">Treemap</a>
+    </nav>
+
+    <div id="home">
+        <p><span id="saluda"></span> Somos Nombre Apellido, Nombre Apellido y Nombre Apellido. En este sitio web podrás ver datos sobre… </p>
+    </div>
+    <script>
+        var saludos = ["Hola", "Hi", "Hallo", "Ciao"];
+        var cromas = ["#ff8a80", "#ea80fc", "#8c9eff", "#80d8ff"]
+
+        function setup() {
+            noCanvas();
+            createElement('strong', random(saludos) + '!').parent('saluda').style('color', random(cromas));
+        }
+    </script>
+
+</body>
+
+</html>
