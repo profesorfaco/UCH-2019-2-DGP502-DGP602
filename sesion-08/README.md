@@ -33,17 +33,28 @@ El trabajo también se podría hacer individualmente, pero prefieran la opción 
 
 #### ENTREGAS
 
-| **INTEGRANTES** | **TEMA** | **REPOSITORIO GITHUB** |
-|:------------|:-------------------|:--------|
-| Tomás López + Danae Conejeros | El juego competitivo de Pokémon | https://github.com/disfrozen/sgcII_eval_02 | 
-| Luis Salazar + 	Odara Vilches + Francisca Tapia | Presencia de mujeres artistas en museos  | https://github.com/luissalazarfigueroa/Evaluacion3-SGCII |
-| Laura Conde	+ Valeria Rojo | Femicidios en Chile | https://github.com/lauracondes/evalucion-conde-rojo-d3 | 
-| Ariel Gárate Molina	+ Benjamín Vidal Vargas | Empleabilidad a nivel nacional y una perspectiva al Diseño entre 2018 y 2019 | https://github.com/ilusionista2000/evaluacion30sept | 
-| Ramiro Salinas + Diego Vega | PARN | https://github.com/RamaSalinas/Segunda-entrega-2do-Semestre-Salinas-Vega |
-| Sofía Fonseca	+ Claudia González | Performances Feministas realizadas bajo un contexto de movilización Chile | https://github.com/medvsa/Entrega_02 |
-| Paula Riquelme + Julio Lara + Pilar Tapia | Feminicidios ocurridos en Chile (2016 - 2018) |  https://github.com/lyytoral/Segunda_Evaluacion | 
-| Deianira Reyes	 + Javiera Castro | Situación de egreso desde el diseño en Chile | https://github.com/jaeezzang/ev_charts | 
-| Bastian Flores+ 	Andrea Gatica | Barrio Franklin | https://github.com/stukv/BarrioFranklin |
-| Fernando Catalán	 + Nicolás Magaña | El mercado del diseño en Chile | https://github.com/bachiloglu/DGP602/tree/gh-pages/ev-02 |
-| Nélida Serrano | Campo laboral de diseño | https://github.com/nelida5/evaluaci-n |
-| Nicolás Bruce	+ Matías Vivanco | La Industria Creativa Nacional | https://github.com/matiasvivancob/evaluacion2/ |
+| **INTEGRANTES** | **TEMA** | **REPOSITORIO** | **GITHUB PAGES** |
+|:------------|:-------------------|:--------|:------|
+| Tomás López + Danae Conejeros | El juego competitivo de Pokémon | https://github.com/disfrozen/sgcII_eval_02 | https://disfrozen.github.io/sgcII_eval_02/ |
+
+| Luis Salazar + 	Odara Vilches + Francisca Tapia | Presencia de mujeres artistas en museos  | https://github.com/luissalazarfigueroa/Evaluacion3-SGCII | https://luissalazarfigueroa.github.io/Evaluacion3-SGCII/ | 
+
+| Laura Conde	+ Valeria Rojo | Femicidios en Chile | https://github.com/lauracondes/evalucion-conde-rojo-d3 | https://lauracondes.github.io/evalucion-conde-rojo-d3/ | 
+
+| Ariel Gárate Molina	+ Benjamín Vidal Vargas | Empleabilidad a nivel nacional y una perspectiva al Diseño entre 2018 y 2019 | https://github.com/ilusionista2000/evaluacion30sept | https://ilusionista2000.github.io/evaluacion30sept/ | 
+
+| Ramiro Salinas + Diego Vega | PARN | https://github.com/RamaSalinas/Segunda-entrega-2do-Semestre-Salinas-Vega | https://ramasalinas.github.io/Segunda-entrega-2do-Semestre-Salinas-Vega/ | 
+
+| Sofía Fonseca	+ Claudia González | Performances Feministas realizadas bajo un contexto de movilización Chile | https://github.com/medvsa/Entrega_02 | https://medvsa.github.io/Entrega_02/ | 
+
+| Paula Riquelme + Julio Lara + Pilar Tapia | Feminicidios ocurridos en Chile (2016 - 2018) |  https://github.com/lyytoral/Segunda_Evaluacion | https://lyytoral.github.io/Segunda_Evaluacion/ | 
+
+| Deianira Reyes	 + Javiera Castro | Situación de egreso desde el diseño en Chile | https://github.com/jaeezzang/ev_charts | https://jaeezzang.github.io/ev_charts/ | 
+
+| Bastian Flores+ 	Andrea Gatica | Barrio Franklin | https://github.com/stukv/BarrioFranklin | https://stukv.github.io/BarrioFranklin/ | 
+
+| Fernando Catalán	 + Nicolás Magaña | El mercado del diseño en Chile | https://github.com/bachiloglu/DGP602/tree/gh-pages/ev-02 | https://bachiloglu.github.io/DGP602/ev-02/ | 
+
+| Nélida Serrano | Campo laboral de diseño | https://github.com/nelida5/evaluaci-n | https://nelida5.github.io/evaluaci-n/ | 
+
+| Nicolás Bruce	+ Matías Vivanco | La Industria Creativa Nacional | https://github.com/matiasvivancob/evaluacion2/ | https://matiasvivancob.github.io/evaluacion2/ | 
