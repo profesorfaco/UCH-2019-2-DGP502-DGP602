@@ -21,6 +21,7 @@ El trabajo también se podría hacer individualmente, pero prefieran la opción 
 | Calidad de mapa de árbol (treemap) hecho con [D3plus](https://d3plus.org/examples/d3plus-hierarchy/custom-color/) - Puede complementarse con un llamado a datos con d3.js | 0,0 | 1,0 |
 | Punto base: Sitio web con 6 páginas, [partiendo desde el ejemplo contenido en este repositorio](https://profesorfaco.github.io/grafica_computacional/sesion-08/) | 0,0 | 1,0 |
 
+**Se les envió un correo con vínculo a una encuesta, favor respóndanla dentro de la primera hora de la clase/prueba.**
 
 #### REFERENCIAS
 
