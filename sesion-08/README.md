@@ -31,3 +31,17 @@ El trabajo también se podría hacer individualmente, pero prefieran la opción 
 - [Referencias para C3.js | D3-based reusable chart library](https://c3js.org/reference.html)
 - [*…how to parse in and prepare common input formats using D3.js*](http://learnjsdata.com/read_data.html)
 
+#### ENTREGAS
+
+| **INTEGRANTES** | **REPOSITORIO GITHUB** |
+|:------------|:-------------------|
+| Tomás López + Danae Conejeros | https://github.com/disfrozen/sgcII_eval_02 | 
+| Luis Salazar + 	Odara Vilches + Francisca Tapia | https://github.com/luissalazarfigueroa/Evaluacion3-SGCII |
+| Laura Conde	+ Valeria Rojo | https://github.com/lauracondes/evalucion-conde-rojo-d3 | 
+| Ariel Gárate Molina	+ Benjamín Vidal Vargas | https://github.com/ilusionista2000/evaluacion30sept | 
+| Ramiro Salinas + Diego Vega | https://github.com/RamaSalinas/Segunda-entrega-2do-Semestre-Salinas-Vega |
+| Sofía Fonseca	+ Claudia González | https://github.com/medvsa/Entrega_2 |
+| Paula Riquelme + Julio Lara + Pilar Tapia | https://github.com/lyytoral/Segunda_Evaluacion | 
+| Deianira Reyes	 + Javiera Castro | https://github.com/jaeezzang/ev_charts | 
+| Bastian Flores+ 	Andrea Gatica | https://github.com/stukv/BarrioFranklin |
+| Fernando Catalán	 + Nicolás Magaña | https://github.com/bachiloglu/DGP602/tree/gh-pages/ev-02 |
