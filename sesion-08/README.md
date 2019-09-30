@@ -45,3 +45,4 @@ El trabajo también se podría hacer individualmente, pero prefieran la opción 
 | Deianira Reyes	 + Javiera Castro | https://github.com/jaeezzang/ev_charts | 
 | Bastian Flores+ 	Andrea Gatica | https://github.com/stukv/BarrioFranklin |
 | Fernando Catalán	 + Nicolás Magaña | https://github.com/bachiloglu/DGP602/tree/gh-pages/ev-02 |
+| Nélida Serrano | https://github.com/nelida5/evaluaci-n |
