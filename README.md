@@ -92,7 +92,7 @@ Los datos recabados serán utilizados para la evaluación que deben desarrollar 
 
 #### Sesión 10: Lunes 14 de octubre
 
-- Definición del artículo informativo individual y primer boceto estructural.
+- Definición del artículo informativo individual (subtema o caso) y primer boceto estructural.
 
 - Wireframe del artículo, desarrollado a mano - https://blog.capterra.com/wp-content/uploads/2017/08/wireframe.jpeg
 
