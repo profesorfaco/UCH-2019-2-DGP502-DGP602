@@ -64,6 +64,7 @@ Se divide en dos partes:
 [Introducción a Chart.js, D3Plus.js, C3.js](https://github.com/profesorfaco/grafica_computacional/tree/gh-pages/sesion-06)
 
 #### Sesión 7: Lunes 23 de septiembre
+
 No hay clases, pero deben recabar datos para:
 - tantear el campo laboral (desde lo cuantitativo);
 - adelantar su investigación para la etapa de titulación; o 
@@ -74,28 +75,52 @@ Piensen este ejercicio como algo útil desde/para el diseño. Y consideren que l
 Los datos recabados serán utilizados para la evaluación que deben desarrollar en la sesión 8.
 
 #### Sesión 8: Lunes 30 de septiembre
+
 [Evaluación de Chart.js, D3Plus.js, C3.js](https://github.com/profesorfaco/grafica_computacional/tree/gh-pages/sesion-08)
 
 #### Sesión 9: Lunes 7 de octubre
-ENEDI2019 - El encuentro territorial en Santiago está programado para 8-10 de octubre. La clase podría cambiar por apoyo a la organización.
+
+- Definir grupos y temática de trabajo (con la condición de ir por una temática valiosa a nivel social, económico y/o ambiental, para y desde las ciudadanías, las comunidades y las personas). 
+
+- Definir marco teórico (investigaciones previas y consideraciones teóricas) para abordar la temática.
+
+- Consolidar una base de datos sobre la temática (compartir, comparar y complementar lo que tengan).
+
+- Definir una muestra de afectados y/o expertos, a quienes podrían acercarse para obtener perspectiva original, como sub-tema o caso específico.
+
+- Definir organizaciones relacionadas, que podrían verse beneficiados con publicaciones parecidas a los artículos en http://fingfx.thomsonreuters.com/ y https://pitchfork.com/features/cover-story/
 
 #### Sesión 10: Lunes 14 de octubre
-Selección de tema de visualización final
+
+- Definición del artículo informativo individual y primer boceto estructural.
+
+- Wireframe del artículo, desarrollado a mano - https://blog.capterra.com/wp-content/uploads/2017/08/wireframe.jpeg
 
 #### Sesión 11: Lunes 21 de octubre
-Avance en tema de visualización final
+
+- Primer boceto escrito del artículo informativo individual.
+
+- Mockup interactivo del artículo, implementado en https://marvelapp.com/ o https://www.invisionapp.com
 
 #### Sesión 12: Lunes 28 de octubre
-Avance en tema de visualización final
+
+- Segunda versión del texto del artículo informativo individual.
+
+- Front-end, con texto real y visualizaciones falsas (imágenes estáticas, sin programación, solo Photoshop).
 
 #### Sesión 13: Lunes 4 de noviembre
-Pre-entrega
+
+- Tercera y última versión del texto de artículo informativo individual.
+
+- Entrega front-end, con texto real aplicado y visualizaciones en proceso. 
 
 #### Sesión 14: Lunes 11 de noviembre
-Pre-entrega
+
+Pre-entrega final (en GitHub Pages)
 
 #### Sesión 15: Lunes 18 de noviembre
-Entrega final
+
+Entrega final (en dominio real).
 
 - - - - - -
 
