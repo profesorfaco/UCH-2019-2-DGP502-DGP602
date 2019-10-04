@@ -86,9 +86,9 @@ Los datos recabados serán utilizados para la evaluación que deben desarrollar 
 
 - Consolidar una base de datos sobre la temática (compartir, comparar y complementar lo que tengan).
 
-- Definir una muestra de afectados y/o expertos, a quienes podrían acercarse para obtener perspectiva original, como sub-tema o caso específico.
+- Hacer un muestreo de afectados y/o expertos, a quienes podrían acercarse para obtener perspectiva original, como sub-tema o caso específico.
 
-- Definir organizaciones relacionadas, que podrían verse beneficiados con publicaciones parecidas a los artículos en http://fingfx.thomsonreuters.com/ y https://pitchfork.com/features/cover-story/
+- Definir organizaciones, relacionadas con afectados y/o expertos, que podrían verse beneficiadas con publicaciones parecidas a los artículos en http://fingfx.thomsonreuters.com/ y https://pitchfork.com/features/cover-story/
 
 #### Sesión 10: Lunes 14 de octubre
 
